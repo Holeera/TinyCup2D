@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 500d7d65139641342bd5be9d3896b6fc
+guid: f23ca54fade1e3948903112f0f142a4c
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -134,7 +134,70 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: test101_0
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 1072
+        width: 309
+        height: 362
+      alignment: 9
+      pivot: {x: 0.71950364, y: 0.13359381}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 057b23cc37772b648b22a99805c51962
+      internalID: -1845146397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: test101_1
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 710
+        width: 351
+        height: 754
+      alignment: 9
+      pivot: {x: 0.568707, y: 0.48200873}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f925233461dfc74bb99fcbc697c999f
+      internalID: -324455575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: test101_2
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 1099
+        width: 150
+        height: 125
+      alignment: 9
+      pivot: {x: 0.51004845, y: 0.68087107}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55764e7c16c97634eae080afaa4df993
+      internalID: -487141012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -145,7 +208,10 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      test101_0: -1845146397
+      test101_1: -324455575
+      test101_2: -487141012
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
