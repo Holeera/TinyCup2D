@@ -14,25 +14,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Active: 1
   settings:
-    intensity: 1
+    intensity: 0.962
     manufacturer: 14
-    moveFrame: {x: 0.2, y: 0.2}
-    jumpFrame: 0.1
-    vignette: 0.2
-    sepia: 0
-    grain: 0.5
-    blinkStrength: 0
-    blinkSpeed: 10
-    blotches: 3
-    blotchSize: 1
-    scratches: 0.5
+    moveFrame: {x: 0.26, y: 0.72}
+    jumpFrame: 0.024
+    vignette: 0
+    sepia: 0.008
+    grain: 0.248
+    blinkStrength: 0.235
+    blinkSpeed: 7.59
+    blotches: 4
+    blotchSize: 3.71
+    scratches: 1
     lines: 4
-    linesStrength: 0.25
-    brightness: 0
-    contrast: 1
-    gamma: 1
+    linesStrength: 0.773
+    brightness: 0.04
+    contrast: 1.08
+    gamma: 1.26
     hue: 0
-    saturation: 1
+    saturation: 0
     affectSceneView: 0
     filterMode: 1
     whenToInsert: 550
