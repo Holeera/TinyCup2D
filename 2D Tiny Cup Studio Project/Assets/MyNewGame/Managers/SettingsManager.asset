@@ -36,7 +36,29 @@ MonoBehaviour:
     autosaveLabelID: -1
   referenceScenesInSave: 0
   useInvariantCulture: 1
-  sceneAttributes: []
+  sceneAttributes:
+  - label: Property 1
+    id: 0
+    type: 1
+    val: 0
+    floatVal: 0
+    textVal: 
+    gameObjectVal: {fileID: 0}
+    gameObjectSaveReferences: 1
+    objectVal: {fileID: 0}
+    popUps: []
+    vector3Val: {x: 0, y: 0, z: 0}
+    link: 0
+    pmVar: 
+    updateLinkOnStart: 0
+    canTranslate: 1
+    popUpID: 0
+    ignorePresets: 0
+    textValLineID: -1
+    popUpsLineID: -1
+    description: 
+    limitToCategories: 0
+    categoryIDs: 
   actionListOnStart: {fileID: 0}
   blackOutWhenSkipping: 0
   events:
@@ -116,7 +138,7 @@ MonoBehaviour:
   navMeshSearchDirection: 1
   ignoreOffScreenNavMesh: 1
   doubleClickMovement: 0
-  magnitudeAffectsDirect: 0
+  magnitudeAffectsDirect: 1
   directTurnsInstantly: 0
   directTurnMode: 0
   stopTurningWhenReleaseInput: 0
@@ -266,4 +288,4 @@ MonoBehaviour:
         label: Apply graphic options
         id: 0
         actionListAsset: {fileID: 11400000, guid: e6dd5fb3681b1c74fa2019cf350b5433, type: 2}
-        parameterIDs: 00000000
+        parameterIDs: 
