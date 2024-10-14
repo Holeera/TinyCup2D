@@ -102,7 +102,7 @@ MonoBehaviour:
     clickOffset: {x: 0, y: 0}
     frameSpeeds: []
     alwaysAnimate: 0
-  inventoryHandling: 0
+  inventoryHandling: 2
   hotspotPrefix1:
     label: Use
     lineID: -1
