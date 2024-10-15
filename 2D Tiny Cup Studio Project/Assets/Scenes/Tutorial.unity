@@ -136,7 +136,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 0
-  isDisplayed: 1
+  isDisplayed: 0
   showComment: 0
   comment: 
   willWait: 0
@@ -156,11 +156,11 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 327
-    y: 442
+    x: 15
+    y: 129
     width: 300
-    height: 192
-  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+    height: 21
+  overrideColor: {r: 1, g: 0.9, b: 0.4, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 9140440356423866383}
   groupID: 0
@@ -467,7 +467,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 0
-  isDisplayed: 1
+  isDisplayed: 0
   showComment: 0
   comment: 
   willWait: 0
@@ -490,8 +490,8 @@ MonoBehaviour:
     x: 14
     y: 14
     width: 300
-    height: 152
-  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+    height: 21
+  overrideColor: {r: 1, g: 0.9, b: 0.4, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 9140440356423866383}
   groupID: 0
@@ -532,6 +532,52 @@ Transform:
   - {fileID: 377880512}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &320537907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0730368720d23479f8f782e46d149b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  isDisplayed: 0
+  showComment: 0
+  comment: 
+  willWait: 0
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  endings:
+  - resultAction: 0
+    skipAction: -1
+    skipActionActual: {fileID: 0}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 17
+    y: 329
+    width: 300
+    height: 21
+  overrideColor: {r: 1, g: 0.4, b: 0.4, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 9140440356423866383}
+  groupID: 0
+  parameterID: -1
+  constantID: 0
+  hotspot: {fileID: 3200237224778296411}
+  affectChildren: 0
+  changeType: 1
 --- !u!114 &337843668
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -703,7 +749,7 @@ Transform:
   - {fileID: 7150376256275187277}
   m_Father: {fileID: 208456884}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &379019226
+--- !u!114 &386431720
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -713,10 +759,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ed656dc9f403a441f8fe89408c7a7189, type: 3}
-  m_Name: 
+  m_Name: (Clone)
   m_EditorClassIdentifier: 
   id: 0
-  isDisplayed: 1
+  isDisplayed: 0
   showComment: 0
   comment: 
   willWait: 0
@@ -726,9 +772,9 @@ MonoBehaviour:
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   endings:
-  - resultAction: 1
-    skipAction: 0
-    skipActionActual: {fileID: 379019226}
+  - resultAction: 2
+    skipAction: 2
+    skipActionActual: {fileID: 967211868}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -736,11 +782,11 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 14
-    y: 14
+    x: 16
+    y: 102
     width: 300
-    height: 172
-  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+    height: 21
+  overrideColor: {r: 1, g: 0.9, b: 0.4, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 7003108620362222740}
   groupID: 0
@@ -764,6 +810,59 @@ MonoBehaviour:
   mouthClip2D: 
   mouthLayer: 0
   waitTimeOffset: 0
+--- !u!114 &395266327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f62d99af8064d446691b72ad13d423e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  isDisplayed: 0
+  showComment: 0
+  comment: 
+  willWait: 0
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  endings:
+  - resultAction: 1
+    skipAction: -1
+    skipActionActual: {fileID: 0}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 16
+    y: 391
+    width: 300
+    height: 21
+  overrideColor: {r: 1, g: 0.4, b: 0.4, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 9140440356423866383}
+  groupID: 0
+  doUpLock: 1
+  doDownLock: 1
+  doLeftLock: 1
+  doRightLock: 1
+  doRunLock: 3
+  doJumpLock: 2
+  freeAimLock: 2
+  cursorState: 2
+  doGravityLock: 2
+  doHotspotHeadTurnLock: 2
+  movePath: {fileID: 0}
+  lockedPathCanReverse: 0
 --- !u!114 &444148967
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -797,8 +896,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 13
-    y: 473
+    x: 14
+    y: 216
     width: 300
     height: 21
   overrideColor: {r: 0.5, g: 0.5, b: 1, a: 1}
@@ -931,7 +1030,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 0
-  isDisplayed: 1
+  isDisplayed: 0
   showComment: 0
   comment: 
   willWait: 1
@@ -951,11 +1050,11 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 329
-    y: 130
+    x: 15
+    y: 100
     width: 300
-    height: 280
-  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+    height: 21
+  overrideColor: {r: 1, g: 0.9, b: 0.4, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 9140440356423866383}
   groupID: 0
@@ -995,7 +1094,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 0
-  isDisplayed: 1
+  isDisplayed: 0
   showComment: 0
   comment: 
   willWait: 0
@@ -1015,11 +1114,11 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 326
-    y: 648
+    x: 16
+    y: 153
     width: 300
-    height: 132
-  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+    height: 21
+  overrideColor: {r: 1, g: 0.9, b: 0.4, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 9140440356423866383}
   groupID: 0
@@ -1060,6 +1159,70 @@ Transform:
   - {fileID: 4308582526706900642}
   m_Father: {fileID: 117383773}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &630117511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0643024da91f402a9281e781736a4c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  isDisplayed: 0
+  showComment: 0
+  comment: 
+  willWait: 1
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  endings:
+  - resultAction: 2
+    skipAction: 1
+    skipActionActual: {fileID: 386431720}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 20
+    y: 69
+    width: 300
+    height: 21
+  overrideColor: {r: 1, g: 0.9, b: 0.4, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 7003108620362222740}
+  groupID: 0
+  charToMoveParameterID: -1
+  markerParameterID: -1
+  charToMoveID: 0
+  markerID: 0
+  marker: {fileID: 1193194039266421794}
+  isPlayer: 1
+  playerID: -1
+  playerParameterID: -1
+  charToMove: {fileID: 0}
+  speed: 0
+  pathFind: 1
+  doFloat: 0
+  positionOffset: {x: 0, y: 0, z: 0}
+  positionOffsetParameterID: -1
+  doTimeLimit: 0
+  maxTimeParameterID: -1
+  maxTime: 10
+  onReachTimeLimit: 0
+  minDistance: 0
+  movePathNode: 0
+  nodeIndex: 0
+  nodeIndexParameterID: -1
+  faceAfter: 1
 --- !u!1 &672578842
 GameObject:
   m_ObjectHideFlags: 0
@@ -1092,6 +1255,52 @@ Transform:
   - {fileID: 139290608}
   m_Father: {fileID: 1659034762}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &704077255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0730368720d23479f8f782e46d149b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  isDisplayed: 0
+  showComment: 0
+  comment: 
+  willWait: 0
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  endings:
+  - resultAction: 2
+    skipAction: 6
+    skipActionActual: {fileID: 1168521336}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 15
+    y: 204
+    width: 300
+    height: 21
+  overrideColor: {r: 0.3, g: 1, b: 0.3, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 7003108620362222740}
+  groupID: 0
+  parameterID: -1
+  constantID: 0
+  hotspot: {fileID: 3200237224778296411}
+  affectChildren: 0
+  changeType: 0
 --- !u!1 &778354291
 GameObject:
   m_ObjectHideFlags: 0
@@ -1300,6 +1509,52 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &967211868
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0730368720d23479f8f782e46d149b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  isDisplayed: 0
+  showComment: 0
+  comment: 
+  willWait: 0
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  endings:
+  - resultAction: 0
+    skipAction: -1
+    skipActionActual: {fileID: 0}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 15
+    y: 133
+    width: 300
+    height: 21
+  overrideColor: {r: 0.3, g: 1, b: 0.3, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 7003108620362222740}
+  groupID: 0
+  parameterID: -1
+  constantID: 0
+  hotspot: {fileID: 7831841022888855785}
+  affectChildren: 0
+  changeType: 0
 --- !u!1 &1005298950
 GameObject:
   m_ObjectHideFlags: 0
@@ -1345,7 +1600,7 @@ MonoBehaviour:
   m_Name: (Clone)
   m_EditorClassIdentifier: 
   id: 0
-  isDisplayed: 1
+  isDisplayed: 0
   showComment: 0
   comment: 
   willWait: 0
@@ -1366,10 +1621,10 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 15
-    y: 176
+    y: 42
     width: 300
-    height: 232
-  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+    height: 21
+  overrideColor: {r: 1, g: 0.9, b: 0.4, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 9140440356423866383}
   groupID: 0
@@ -1467,6 +1722,52 @@ MonoBehaviour:
   mouthClip2D: 
   mouthLayer: 0
   waitTimeOffset: 0.7
+--- !u!114 &1168521336
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d33593da7d3524e1998da7151086b1b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  isDisplayed: 0
+  showComment: 0
+  comment: 
+  willWait: 0
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  endings:
+  - resultAction: 1
+    skipAction: -1
+    skipActionActual: {fileID: 0}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 14
+    y: 243
+    width: 300
+    height: 21
+  overrideColor: {r: 1, g: 0.4, b: 0.4, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 7003108620362222740}
+  groupID: 0
+  parameterID: -1
+  constantID: 0
+  obToAffect: {fileID: 139290607}
+  affectChildren: 1
+  visState: 1
 --- !u!1 &1170831160
 GameObject:
   m_ObjectHideFlags: 0
@@ -1531,8 +1832,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 12
-    y: 448
+    x: 13
+    y: 191
     width: 300
     height: 21
   overrideColor: {r: 0.5, g: 0.5, b: 1, a: 1}
@@ -1577,6 +1878,52 @@ Transform:
   - {fileID: 3349777075325292012}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1256744604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0730368720d23479f8f782e46d149b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  isDisplayed: 0
+  showComment: 0
+  comment: 
+  willWait: 0
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  endings:
+  - resultAction: 0
+    skipAction: -1
+    skipActionActual: {fileID: 0}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 15
+    y: 168
+    width: 300
+    height: 21
+  overrideColor: {r: 0.3, g: 1, b: 0.3, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 7003108620362222740}
+  groupID: 0
+  parameterID: -1
+  constantID: 0
+  hotspot: {fileID: 2040244422}
+  affectChildren: 0
+  changeType: 0
 --- !u!114 &1264951911
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1645,9 +1992,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 6
+  m_SortingLayerID: -1386060237
+  m_SortingLayer: 1
+  m_SortingOrder: 10
   m_Sprite: {fileID: 21300000, guid: 61caa319333e3d14ea1fbcd9cb294a30, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1697,9 +2044,9 @@ MonoBehaviour:
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   endings:
-  - resultAction: 1
-    skipAction: -1
-    skipActionActual: {fileID: 0}
+  - resultAction: 2
+    skipAction: 10
+    skipActionActual: {fileID: 1745748648}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -1707,8 +2054,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 16.5
-    y: 524
+    x: 17.5
+    y: 267
     width: 300
     height: 21
   overrideColor: {r: 0.5, g: 0.5, b: 1, a: 1}
@@ -1983,7 +2330,7 @@ MonoBehaviour:
       maxAngle: 315
     isUpgraded: 1
   angleSnapping: 0
-  walkSpeedScale: 2
+  walkSpeedScale: 4
   runSpeedScale: 6
   reverseSpeedFactor: 1
   canRunInReverse: 1
@@ -2324,6 +2671,59 @@ Transform:
   - {fileID: 7220789343120668014}
   m_Father: {fileID: 117383773}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1491946741
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f62d99af8064d446691b72ad13d423e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  isDisplayed: 0
+  showComment: 0
+  comment: 
+  willWait: 0
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  endings:
+  - resultAction: 2
+    skipAction: 5
+    skipActionActual: {fileID: 630117511}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 14
+    y: 14
+    width: 300
+    height: 21
+  overrideColor: {r: 0.3, g: 1, b: 0.3, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 7003108620362222740}
+  groupID: 0
+  doUpLock: 0
+  doDownLock: 0
+  doLeftLock: 0
+  doRightLock: 0
+  doRunLock: 3
+  doJumpLock: 2
+  freeAimLock: 2
+  cursorState: 2
+  doGravityLock: 2
+  doHotspotHeadTurnLock: 2
+  movePath: {fileID: 0}
+  lockedPathCanReverse: 0
 --- !u!114 &1511853485
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2337,7 +2737,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 1
-  isDisplayed: 1
+  isDisplayed: 0
   showComment: 0
   comment: 
   willWait: 0
@@ -2357,11 +2757,11 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 329
-    y: 17
+    x: 16
+    y: 70
     width: 300
-    height: 92
-  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+    height: 21
+  overrideColor: {r: 1, g: 0.9, b: 0.4, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 9140440356423866383}
   groupID: 0
@@ -2745,8 +3145,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 12
-    y: 498.09998
+    x: 13
+    y: 241.09998
     width: 300
     height: 21
   overrideColor: {r: 0.5, g: 0.5, b: 1, a: 1}
@@ -2847,6 +3247,52 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1356705492}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1700552501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0730368720d23479f8f782e46d149b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  isDisplayed: 0
+  showComment: 0
+  comment: 
+  willWait: 0
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  endings:
+  - resultAction: 0
+    skipAction: -1
+    skipActionActual: {fileID: 0}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 15
+    y: 359
+    width: 300
+    height: 21
+  overrideColor: {r: 1, g: 0.4, b: 0.4, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 9140440356423866383}
+  groupID: 0
+  parameterID: -1
+  constantID: 0
+  hotspot: {fileID: 2040244422}
+  affectChildren: 0
+  changeType: 1
 --- !u!114 &1719688359
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2957,6 +3403,52 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1745748648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0730368720d23479f8f782e46d149b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  isDisplayed: 0
+  showComment: 0
+  comment: 
+  willWait: 0
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  endings:
+  - resultAction: 0
+    skipAction: -1
+    skipActionActual: {fileID: 0}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 16
+    y: 302
+    width: 300
+    height: 21
+  overrideColor: {r: 1, g: 0.4, b: 0.4, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 9140440356423866383}
+  groupID: 0
+  parameterID: -1
+  constantID: 0
+  hotspot: {fileID: 7831841022888855785}
+  affectChildren: 0
+  changeType: 1
 --- !u!1 &1756356317
 GameObject:
   m_ObjectHideFlags: 0
@@ -3331,7 +3823,7 @@ GameObject:
   - component: {fileID: 2040244422}
   - component: {fileID: 2040244427}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: Hotspot2D - Shopkeeper
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3741,7 +4233,7 @@ MonoBehaviour:
     x: 11
     y: 194
     width: 300
-    height: 340
+    height: 300
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 3349777075319415852}
@@ -3758,9 +4250,9 @@ MonoBehaviour:
   speed: 0
   pathFind: 1
   doFloat: 0
-  positionOffset: {x: 0, y: 0, z: 0}
+  positionOffset: {x: 0, y: 1, z: 0}
   positionOffsetParameterID: -1
-  doTimeLimit: 1
+  doTimeLimit: 0
   maxTimeParameterID: -1
   maxTime: 1.5
   onReachTimeLimit: 1
@@ -4549,7 +5041,7 @@ MonoBehaviour:
   groups: []
   backupData:
   - className: AC.ActionSpeech
-    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":1,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":14.0,"y":14.0,"width":300.0,"height":172.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":0},"groupID":0,"constantID":0,"parameterID":-1,"messageParameterID":-1,"isPlayer":true,"playerID":-1,"speaker":{"instanceID":0},"messageText":"It
+    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":1,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":14.0,"y":14.0,"width":300.0,"height":172.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":1656218792946806816_0},"groupID":0,"constantID":0,"parameterID":-1,"messageParameterID":-1,"isPlayer":true,"playerID":-1,"speaker":{"instanceID":0},"messageText":"It
       would be too risky to steal that","lineID":-1,"multiLineIDs":[],"isBackground":false,"noAnimation":false,"headClip":{"instanceID":0},"mouthClip":{"instanceID":0},"play2DHeadAnim":false,"headClip2D":"","headLayer":0,"play2DMouthAnim":false,"mouthClip2D":"","mouthLayer":0,"waitTimeOffset":0.699999988079071}'
     endingReferencesBuffer: 00
     endingOverrideIndex: 00000000
@@ -4939,9 +5431,22 @@ MonoBehaviour:
   groups: []
   backupData:
   - className: AC.ActionInventorySet
-    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":14.0,"y":14.0,"width":300.0,"height":172.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":0},"groupID":0,"invAction":0,"parameterID":-1,"invID":0,"replaceParameterID":-1,"invIDReplace":0,"setAmount":true,"amountParameterID":-1,"amount":1,"setPlayer":false,"playerID":0,"addToFront":false,"removeLast":false,"itemRemoveMethod":0,"categoryID":0,"categoryIDParameterID":-1}'
+    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":14.0,"y":14.0,"width":300.0,"height":172.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":3349777075319415852_0},"groupID":0,"invAction":0,"parameterID":-1,"invID":0,"replaceParameterID":-1,"invIDReplace":0,"setAmount":true,"amountParameterID":-1,"amount":1,"setPlayer":false,"playerID":0,"addToFront":false,"removeLast":false,"itemRemoveMethod":0,"categoryID":0,"categoryIDParameterID":-1}'
     endingReferencesBuffer: 00
     endingOverrideIndex: 00000000
+  - className: AC.ActionCharPathFind
+    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":true,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":11.0,"y":194.0,"width":300.0,"height":340.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":3349777075319415852_0},"groupID":0,"charToMoveParameterID":-1,"markerParameterID":-1,"charToMoveID":0,"markerID":0,"marker":{"instanceID":3205813142714403038_0},"isPlayer":false,"playerID":-1,"playerParameterID":-1,"charToMove":{"instanceID":1427301556_0},"speed":0,"pathFind":true,"doFloat":false,"positionOffset":{"x":0.0,"y":0.0,"z":0.0},"positionOffsetParameterID":-1,"doTimeLimit":true,"maxTimeParameterID":-1,"maxTime":1.5,"onReachTimeLimit":1,"minDistance":0.0,"movePathNode":0,"nodeIndex":0,"nodeIndexParameterID":-1,"faceAfter":false}'
+    endingReferencesBuffer: 00
+    endingOverrideIndex: 00000000
+  - className: AC.ActionSpeech
+    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":6.0,"y":548.0,"width":300.0,"height":207.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":3349777075319415852_0},"groupID":0,"constantID":0,"parameterID":-1,"messageParameterID":-1,"isPlayer":false,"playerID":-1,"speaker":{"instanceID":1427301556_0},"messageText":"I
+      can''t believe you had the guts to try the same thing after the last time!","lineID":-1,"multiLineIDs":[],"isBackground":false,"noAnimation":false,"headClip":{"instanceID":0},"mouthClip":{"instanceID":0},"play2DHeadAnim":false,"headClip2D":"","headLayer":0,"play2DMouthAnim":false,"mouthClip2D":"","mouthLayer":0,"waitTimeOffset":1.0}'
+    endingReferencesBuffer: 00
+    endingOverrideIndex: 00000000
+  - className: AC.ActionScene
+    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-99,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":8.0,"y":758.0,"width":300.0,"height":164.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":3349777075319415852_0},"groupID":0,"chooseSceneBy":1,"sceneNumber":0,"sceneNumberParameterID":-1,"sceneName":"Streets","sceneNameParameterID":-1,"assignScreenOverlay":false,"onlyPreload":false,"relativePosition":false,"relativeMarker":{"instanceID":0},"relativeMarkerID":0,"relativeMarkerParameterID":-1,"forceReload":false}'
+    endingReferencesBuffer: 
+    endingOverrideIndex: 
 --- !u!4 &3349777075325292012
 Transform:
   m_ObjectHideFlags: 0
@@ -5001,7 +5506,7 @@ Transform:
   m_GameObject: {fileID: 3623410971683978960}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.11, y: -2.77, z: 0}
+  m_LocalPosition: {x: 4.11, y: -2.859, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5256,7 +5761,7 @@ MonoBehaviour:
   groups: []
   backupData:
   - className: AC.ActionQTE
-    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":2,"skipAction":2,"skipActionActual":{"instanceID":50126},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}},{"resultAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":14.0,"y":14.0,"width":300.0,"height":320.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":4325009480654024928_0},"groupID":0,"resultActionTrue":0,"skipActionTrue":-1,"skipActionTrueActual":{"instanceID":0},"linkedCutsceneTrue":{"instanceID":0},"linkedAssetTrue":{"instanceID":0},"resultActionFail":1,"skipActionFail":-1,"skipActionFailActual":{"instanceID":0},"linkedCutsceneFail":{"instanceID":0},"linkedAssetFail":{"instanceID":0},"qteType":2,"qteHoldReleaseBehaviour":0,"menuNameParameterID":-1,"menuName":"QTE
+    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":2,"skipAction":2,"skipActionActual":{"instanceID":90682},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}},{"resultAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":14.0,"y":14.0,"width":300.0,"height":320.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":4325009480654024928_0},"groupID":0,"resultActionTrue":0,"skipActionTrue":-1,"skipActionTrueActual":{"instanceID":0},"linkedCutsceneTrue":{"instanceID":0},"linkedAssetTrue":{"instanceID":0},"resultActionFail":1,"skipActionFail":-1,"skipActionFailActual":{"instanceID":0},"linkedCutsceneFail":{"instanceID":0},"linkedAssetFail":{"instanceID":0},"qteType":2,"qteHoldReleaseBehaviour":0,"menuNameParameterID":-1,"menuName":"QTE
       prompt","animateUI":false,"wrongKeyFails":false,"axisThreshold":0.20000000298023225,"inputNameParameterID":-1,"inputName":"Click
       E","durationParameterID":-1,"duration":4.0,"holdDuration":0.0,"cooldownTime":0.5,"targetPressesParameterID":-1,"targetPresses":1,"doCooldown":true,"runIndefinitely":false,"verticalInputName":"","verticalInputNameParameterID":-1,"rotationIsClockwise":true,"targetRotations":1.0,"targetRotationsParameterID":-1}'
     endingReferencesBuffer: 0100
@@ -5417,7 +5922,7 @@ MonoBehaviour:
     invID: 0
     iconID: 2
     selectItemMode: 0
-    playerAction: 3
+    playerAction: 1
     doubleClickDoesNotSnapPlayerToMarker: 0
     setProximity: 0
     proximity: 1
@@ -5503,7 +6008,7 @@ Transform:
   m_GameObject: {fileID: 4930085713553059065}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.65, y: -1.86, z: 0}
+  m_LocalPosition: {x: 2.65, y: -1.836, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5698,7 +6203,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   actions:
-  - {fileID: 379019226}
+  - {fileID: 1491946741}
+  - {fileID: 386431720}
+  - {fileID: 967211868}
+  - {fileID: 1256744604}
+  - {fileID: 704077255}
+  - {fileID: 630117511}
+  - {fileID: 1168521336}
   isSkippable: 1
   triggerTime: 0
   autosaveAfter: 0
@@ -5714,7 +6225,7 @@ MonoBehaviour:
   groups: []
   backupData:
   - className: AC.ActionSpeech
-    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":1,"skipAction":0,"skipActionActual":{"instanceID":50026},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":14.0,"y":14.0,"width":300.0,"height":172.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":7003108620362222740_0},"groupID":0,"constantID":0,"parameterID":-1,"messageParameterID":-1,"isPlayer":true,"playerID":-1,"speaker":{"instanceID":0},"messageText":"I
+    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":1,"skipAction":0,"skipActionActual":{"instanceID":90576},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":14.0,"y":14.0,"width":300.0,"height":172.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":7003108620362222740_0},"groupID":0,"constantID":0,"parameterID":-1,"messageParameterID":-1,"isPlayer":true,"playerID":-1,"speaker":{"instanceID":0},"messageText":"I
       haven''t eaten in days","lineID":-1,"multiLineIDs":[],"isBackground":false,"noAnimation":false,"headClip":{"instanceID":0},"mouthClip":{"instanceID":0},"play2DHeadAnim":false,"headClip2D":"","headLayer":0,"play2DMouthAnim":false,"mouthClip2D":"","mouthLayer":0,"waitTimeOffset":0.0}'
     endingReferencesBuffer: 00
     endingOverrideIndex: 00000000
@@ -6055,7 +6566,7 @@ Transform:
   m_GameObject: {fileID: 7831841022881774857}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.11, y: -1.85, z: 0}
+  m_LocalPosition: {x: 4.11, y: -1.834, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6426,7 +6937,7 @@ MonoBehaviour:
   groups: []
   backupData:
   - className: AC.ActionSpeech
-    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":1,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":14.0,"y":14.0,"width":300.0,"height":187.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":0},"groupID":0,"constantID":0,"parameterID":-1,"messageParameterID":-1,"isPlayer":true,"playerID":-1,"speaker":{"instanceID":0},"messageText":"She
+    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":1,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":14.0,"y":14.0,"width":300.0,"height":187.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":8609167946667455313_0},"groupID":0,"constantID":0,"parameterID":-1,"messageParameterID":-1,"isPlayer":true,"playerID":-1,"speaker":{"instanceID":0},"messageText":"She
       shouldn''t be able to see if I take just little","lineID":-1,"multiLineIDs":[],"isBackground":false,"noAnimation":false,"headClip":{"instanceID":0},"mouthClip":{"instanceID":0},"play2DHeadAnim":false,"headClip2D":"","headLayer":0,"play2DMouthAnim":false,"mouthClip2D":"","mouthLayer":0,"waitTimeOffset":0.75}'
     endingReferencesBuffer: 00
     endingOverrideIndex: 00000000
@@ -6638,6 +7149,10 @@ MonoBehaviour:
   - {fileID: 1208840245}
   - {fileID: 1679853466}
   - {fileID: 1037503068}
+  - {fileID: 1745748648}
+  - {fileID: 320537907}
+  - {fileID: 1700552501}
+  - {fileID: 395266327}
   isSkippable: 1
   triggerTime: 0
   autosaveAfter: 0
@@ -6653,7 +7168,7 @@ MonoBehaviour:
   groups: []
   backupData:
   - className: AC.ActionVisible
-    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":2,"skipAction":9,"skipActionActual":{"instanceID":-122050},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":14.0,"y":14.0,"width":300.0,"height":152.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":9140440356423866383_0},"groupID":0,"parameterID":-1,"constantID":0,"obToAffect":{"instanceID":139290607_0},"affectChildren":true,"visState":1}'
+    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":2,"skipAction":9,"skipActionActual":{"instanceID":90630},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":14.0,"y":14.0,"width":300.0,"height":152.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":9140440356423866383_0},"groupID":0,"parameterID":-1,"constantID":0,"obToAffect":{"instanceID":139290607_0},"affectChildren":true,"visState":1}'
     endingReferencesBuffer: 01
     endingOverrideIndex: 09000000
   - className: AC.ActionPause
@@ -6665,12 +7180,12 @@ MonoBehaviour:
     endingReferencesBuffer: 00
     endingOverrideIndex: 00000000
   - className: AC.ActionSpeech
-    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":2,"skipAction":6,"skipActionActual":{"instanceID":-109398},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":327.0,"y":442.0,"width":300.0,"height":192.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":9140440356423866383_0},"groupID":0,"constantID":0,"parameterID":-1,"messageParameterID":-1,"isPlayer":true,"playerID":-1,"speaker":{"instanceID":0},"messageText":"Ah,
+    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":2,"skipAction":6,"skipActionActual":{"instanceID":90594},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":327.0,"y":442.0,"width":300.0,"height":192.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":9140440356423866383_0},"groupID":0,"constantID":0,"parameterID":-1,"messageParameterID":-1,"isPlayer":true,"playerID":-1,"speaker":{"instanceID":0},"messageText":"Ah,
       what a pretty shop","lineID":-1,"multiLineIDs":[],"isBackground":false,"noAnimation":false,"headClip":{"instanceID":0},"mouthClip":{"instanceID":0},"play2DHeadAnim":false,"headClip2D":"","headLayer":0,"play2DMouthAnim":false,"mouthClip2D":"","mouthLayer":0,"waitTimeOffset":0.0}'
     endingReferencesBuffer: 01
     endingOverrideIndex: 06000000
   - className: AC.ActionSpeech
-    jsonData: '{"id":0,"isDisplayed":false,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":2,"skipAction":8,"skipActionActual":{"instanceID":-112874},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":13.0,"y":473.0,"width":300.0,"height":21.0},"overrideColor":{"r":0.5,"g":0.5,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":9140440356423866383_0},"groupID":0,"constantID":0,"parameterID":-1,"messageParameterID":-1,"isPlayer":true,"playerID":-1,"speaker":{"instanceID":0},"messageText":"What''s
+    jsonData: '{"id":0,"isDisplayed":false,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":2,"skipAction":8,"skipActionActual":{"instanceID":90720},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":13.0,"y":473.0,"width":300.0,"height":21.0},"overrideColor":{"r":0.5,"g":0.5,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":9140440356423866383_0},"groupID":0,"constantID":0,"parameterID":-1,"messageParameterID":-1,"isPlayer":true,"playerID":-1,"speaker":{"instanceID":0},"messageText":"What''s
       that?","lineID":-1,"multiLineIDs":[],"isBackground":false,"noAnimation":false,"headClip":{"instanceID":0},"mouthClip":{"instanceID":0},"play2DHeadAnim":false,"headClip2D":"","headLayer":0,"play2DMouthAnim":false,"mouthClip2D":"","mouthLayer":0,"waitTimeOffset":0.0}'
     endingReferencesBuffer: 01
     endingOverrideIndex: 08000000
@@ -6684,15 +7199,15 @@ MonoBehaviour:
     endingReferencesBuffer: 00
     endingOverrideIndex: 00000000
   - className: AC.ActionPause
-    jsonData: '{"id":2,"isDisplayed":false,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":2,"skipAction":4,"skipActionActual":{"instanceID":-109394},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":12.0,"y":448.0,"width":300.0,"height":21.0},"overrideColor":{"r":0.5,"g":0.5,"b":1.0,"a":1.0},"showOutputSockets":false,"parentActionListInEditor":{"instanceID":9140440356423866383_0},"groupID":0,"parameterID":-1,"timeToPause":1.0}'
+    jsonData: '{"id":2,"isDisplayed":false,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":2,"skipAction":4,"skipActionActual":{"instanceID":90578},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":12.0,"y":448.0,"width":300.0,"height":21.0},"overrideColor":{"r":0.5,"g":0.5,"b":1.0,"a":1.0},"showOutputSockets":false,"parentActionListInEditor":{"instanceID":9140440356423866383_0},"groupID":0,"parameterID":-1,"timeToPause":1.0}'
     endingReferencesBuffer: 01
     endingOverrideIndex: 04000000
   - className: AC.ActionPause
-    jsonData: '{"id":3,"isDisplayed":false,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":2,"skipAction":5,"skipActionActual":{"instanceID":-109396},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":12.0,"y":498.0999755859375,"width":300.0,"height":21.0},"overrideColor":{"r":0.5,"g":0.5,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":9140440356423866383_0},"groupID":0,"parameterID":-1,"timeToPause":1.0}'
+    jsonData: '{"id":3,"isDisplayed":false,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":2,"skipAction":5,"skipActionActual":{"instanceID":90652},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":12.0,"y":498.0999755859375,"width":300.0,"height":21.0},"overrideColor":{"r":0.5,"g":0.5,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":9140440356423866383_0},"groupID":0,"parameterID":-1,"timeToPause":1.0}'
     endingReferencesBuffer: 01
     endingOverrideIndex: 05000000
   - className: AC.ActionFade
-    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":2,"skipAction":1,"skipActionActual":{"instanceID":-80782},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":15.0,"y":176.0,"width":300.0,"height":232.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":9140440356423866383_0},"groupID":0,"fadeType":0,"isInstant":false,"fadeSpeed":0.5,"fadeSpeedParameterID":-1,"setTexture":false,"tempTexture":{"instanceID":0},"tempTextureParameterID":-1,"forceCompleteTransition":true,"cameraFadePauseBehaviour":0,"fadeCurve":{"serializedVersion":"2","m_Curve":[{"serializedVersion":"3","time":0.0,"value":0.0,"inSlope":1.0,"outSlope":1.0,"tangentMode":0,"weightedMode":0,"inWeight":0.0,"outWeight":0.0},{"serializedVersion":"3","time":1.0,"value":1.0,"inSlope":1.0,"outSlope":1.0,"tangentMode":0,"weightedMode":0,"inWeight":0.0,"outWeight":0.0}],"m_PreInfinity":2,"m_PostInfinity":2,"m_RotationOrder":4}}'
+    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":2,"skipAction":1,"skipActionActual":{"instanceID":90688},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":15.0,"y":176.0,"width":300.0,"height":232.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":9140440356423866383_0},"groupID":0,"fadeType":0,"isInstant":false,"fadeSpeed":0.5,"fadeSpeedParameterID":-1,"setTexture":false,"tempTexture":{"instanceID":0},"tempTextureParameterID":-1,"forceCompleteTransition":true,"cameraFadePauseBehaviour":0,"fadeCurve":{"serializedVersion":"2","m_Curve":[{"serializedVersion":"3","time":0.0,"value":0.0,"inSlope":1.0,"outSlope":1.0,"tangentMode":0,"weightedMode":0,"inWeight":0.0,"outWeight":0.0},{"serializedVersion":"3","time":1.0,"value":1.0,"inSlope":1.0,"outSlope":1.0,"tangentMode":0,"weightedMode":0,"inWeight":0.0,"outWeight":0.0}],"m_PreInfinity":2,"m_PostInfinity":2,"m_RotationOrder":4}}'
     endingReferencesBuffer: 01
     endingOverrideIndex: 01000000
 --- !u!4 &9140440356433818063
