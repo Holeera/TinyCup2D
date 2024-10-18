@@ -33,8 +33,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 17
-    y: 151
+    x: 19
+    y: 160
     width: 300
     height: 248
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -120,7 +120,7 @@ MonoBehaviour:
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 0}
   groupID: 0
-  changeType: 0
+  changeType: 1
   removeJournalPageMethod: 0
   menuToChange: Title
   menuToChangeParameterID: -1
