@@ -7189,8 +7189,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5f455f0e4a864975bf60bc153fbe20d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  menuSource: 0
-  canvas: {fileID: 22300000, guid: 35e9bed7211f86644aa337419ffc15f7, type: 3}
+  menuSource: 1
+  canvas: {fileID: 22300000, guid: b36283685a74242448c6c7077965ed56, type: 3}
   canvasAssetKey: 
   canvasID: 0
   rectTransform: {fileID: 22459834, guid: 35e9bed7211f86644aa337419ffc15f7, type: 3}
