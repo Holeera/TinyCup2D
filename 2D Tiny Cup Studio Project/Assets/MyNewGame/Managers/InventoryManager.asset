@@ -16,7 +16,7 @@ MonoBehaviour:
   - label: Worm
     id: 0
     altLabel: 
-    carryOnStart: 1
+    carryOnStart: 0
     carryOnStartNotDefault: 0
     carryOnStartIDs: 00000000
     vars: []
@@ -71,7 +71,7 @@ MonoBehaviour:
   - label: Bag
     id: 1
     altLabel: 
-    carryOnStart: 1
+    carryOnStart: 0
     carryOnStartNotDefault: 0
     carryOnStartIDs: 00000000
     vars: []
@@ -130,7 +130,34 @@ MonoBehaviour:
   passUnhandledHotspotAsParameter: 0
   unhandledGive: {fileID: 0}
   recipes: []
-  documents: []
+  documents:
+  - ID: 0
+    title: (Untitled)
+    titleLineID: -1
+    rememberLastOpenPage: 0
+    carryOnStart: 0
+    texture: {fileID: 0}
+    pages:
+    - lineID: -1
+      text: 
+      texture: {fileID: 0}
+    - lineID: -1
+      text: 
+      texture: {fileID: 0}
+    - lineID: -1
+      text: 
+      texture: {fileID: 0}
+    - lineID: -1
+      text: 
+      texture: {fileID: 0}
+    - lineID: -1
+      text: 
+      texture: {fileID: 0}
+    - lineID: -1
+      text: 
+      texture: {fileID: 0}
+    binID: -1
+    vars: []
   objectives: []
   objectiveStateActiveLabel:
     label: Active
