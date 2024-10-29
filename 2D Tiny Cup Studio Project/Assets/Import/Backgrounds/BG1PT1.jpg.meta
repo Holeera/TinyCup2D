@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 658b0cdb7fe487149a1959e7f5849951
+guid: 416cf420df055a84d8d702bd4a3fd181
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -121,70 +121,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: woman_sprite_0
-      rect:
-        serializedVersion: 2
-        x: 399
-        y: 124
-        width: 139
-        height: 290
-      alignment: 9
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a409654761a4a8842bc63c72e0c05cd4
-      internalID: 33451760
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: woman_sprite_1
-      rect:
-        serializedVersion: 2
-        x: 607
-        y: 115
-        width: 116
-        height: 307
-      alignment: 9
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 11e7b0922ea2d61438f7a8e43198fef8
-      internalID: -1166456605
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: woman_sprite_2
-      rect:
-        serializedVersion: 2
-        x: 773
-        y: 110
-        width: 164
-        height: 315
-      alignment: 9
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 88a43fdd687b85c4c9ee6b17c735c7f2
-      internalID: -1867353602
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
@@ -195,10 +132,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      woman_sprite_0: 33451760
-      woman_sprite_1: -1166456605
-      woman_sprite_2: -1867353602
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

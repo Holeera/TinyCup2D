@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ccb0fd0f74fa895439b304789c48e19a
+guid: dcf1a45ecb43dc741803b2bf5adc20b7
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -121,70 +121,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: ruznoodeven_0
-      rect:
-        serializedVersion: 2
-        x: 202
-        y: 212
-        width: 430
-        height: 729
-      alignment: 9
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d57969e6052549e449af53e7af1d34fa
-      internalID: -382247881
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ruznoodeven_1
-      rect:
-        serializedVersion: 2
-        x: 747
-        y: 232
-        width: 377
-        height: 717
-      alignment: 9
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f4f8d6a8172057c4dbba31894896a04e
-      internalID: 2114315663
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ruznoodeven_2
-      rect:
-        serializedVersion: 2
-        x: 1347
-        y: 240
-        width: 365
-        height: 709
-      alignment: 9
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0353ef95419999d4999867686fb7f710
-      internalID: 1952169311
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
@@ -195,10 +132,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      ruznoodeven_0: -382247881
-      ruznoodeven_1: 2114315663
-      ruznoodeven_2: 1952169311
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
