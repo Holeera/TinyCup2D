@@ -8198,7 +8198,7 @@ MonoBehaviour:
   canvas: {fileID: 22300000, guid: 10b9b4d87a3327b4c90f70227feac051, type: 3}
   canvasAssetKey: 
   canvasID: 0
-  rectTransform: {fileID: 0}
+  rectTransform: {fileID: 22400028, guid: 10b9b4d87a3327b4c90f70227feac051, type: 3}
   rectTransformID: 276360
   uiTransitionType: 1
   uiPositionType: 0

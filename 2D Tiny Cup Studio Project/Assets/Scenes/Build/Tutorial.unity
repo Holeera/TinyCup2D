@@ -183,7 +183,7 @@ MonoBehaviour:
   play2DMouthAnim: 0
   mouthClip2D: 
   mouthLayer: 0
-  waitTimeOffset: 0
+  waitTimeOffset: 0.7
 --- !u!1 &108253447
 GameObject:
   m_ObjectHideFlags: 0
@@ -1442,7 +1442,7 @@ MonoBehaviour:
   play2DMouthAnim: 0
   mouthClip2D: 
   mouthLayer: 0
-  waitTimeOffset: 0
+  waitTimeOffset: 0.7
 --- !u!114 &395266327
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1640,7 +1640,7 @@ MonoBehaviour:
   play2DMouthAnim: 0
   mouthClip2D: 
   mouthLayer: 0
-  waitTimeOffset: 0
+  waitTimeOffset: 0.7
 --- !u!1 &493944651
 GameObject:
   m_ObjectHideFlags: 0
@@ -2930,7 +2930,7 @@ MonoBehaviour:
   lineID: -1
   multiLineIDs: 
   isBackground: 0
-  noAnimation: 0
+  noAnimation: 1
   headClip: {fileID: 0}
   mouthClip: {fileID: 0}
   play2DHeadAnim: 0
@@ -2939,7 +2939,7 @@ MonoBehaviour:
   play2DMouthAnim: 0
   mouthClip2D: 
   mouthLayer: 0
-  waitTimeOffset: 0
+  waitTimeOffset: 0.7
 --- !u!1 &1356705491
 GameObject:
   m_ObjectHideFlags: 0

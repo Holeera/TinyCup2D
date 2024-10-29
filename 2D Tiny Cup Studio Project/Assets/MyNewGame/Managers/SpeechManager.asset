@@ -20,12 +20,12 @@ MonoBehaviour:
   playScrollAudioEveryCharacter: 1
   speechScrollAudioSource: 0
   waitTimeOffset: 0
-  displayForever: 0
-  displayNarrationForever: 0
+  displayForever: 1
+  displayNarrationForever: 1
   playAnimationForever: 1
   canSkipWithMouseClicks: 1
-  minimumDisplayTime: 1
-  screenTimeFactor: 0.1
+  minimumDisplayTime: 1.5
+  screenTimeFactor: 0.5
   allowSpeechSkipping: 0
   allowGameplaySpeechSkipping: 0
   skipThresholdTime: 0
