@@ -104,7 +104,7 @@ MonoBehaviour:
   allowGameplayDuringConversations: 0
   walkToHotspotMarkers: 1
   dragThreshold: 0
-  maxInventorySlots: 0
+  maxInventorySlots: 10
   shareInventory: 0
   inventoryDragDrop: 0
   dragDropThreshold: 0

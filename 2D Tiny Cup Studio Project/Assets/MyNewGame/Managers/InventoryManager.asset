@@ -125,7 +125,7 @@ MonoBehaviour:
     selectSingle: 0
   - label: Dango
     id: 2
-    altLabel: 
+    altLabel: Dango
     carryOnStart: 0
     carryOnStartNotDefault: 0
     carryOnStartIDs: 00000000
@@ -135,8 +135,8 @@ MonoBehaviour:
     canBeLowerCase: 0
     maxCount: 999
     itemStackingMode: 0
-    tex: {fileID: 2800000, guid: 6e7efac84982c4fb28b5e4870630bf96, type: 3}
-    activeTex: {fileID: 0}
+    tex: {fileID: 2800000, guid: 17cb8252e07444cc0a3fbf4d99a47eac, type: 3}
+    activeTex: {fileID: 2800000, guid: 17cb8252e07444cc0a3fbf4d99a47eac, type: 3}
     selectedTex: {fileID: 0}
     linkedPrefab: {fileID: 6423377432326862767, guid: 06db5df6d2954c643b2704e3509e6090, type: 3}
     cursorIcon:
