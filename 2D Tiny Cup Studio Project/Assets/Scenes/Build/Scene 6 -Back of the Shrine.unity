@@ -190,7 +190,7 @@ MonoBehaviour:
   hotspotName: TEMPLATE
   lineID: -1
   highlight: {fileID: 0}
-  walkToMarker: {fileID: 3205813142714403038}
+  walkToMarker: {fileID: 0}
   centrePoint: {fileID: 0}
   centrePointOverrides: 0
   provideUseInteraction: 1
@@ -213,7 +213,7 @@ MonoBehaviour:
     parameterID: -1
     invParameterID: -1
   useButtons:
-  - interaction: {fileID: 1656218792946806816}
+  - interaction: {fileID: 0}
     assetFile: {fileID: 0}
     customScriptObject: {fileID: 0}
     customScriptFunction: 
@@ -230,7 +230,7 @@ MonoBehaviour:
     stopPlayer: 1
     parameterID: -1
     invParameterID: -1
-  - interaction: {fileID: 6259062804857278369}
+  - interaction: {fileID: 0}
     assetFile: {fileID: 0}
     customScriptObject: {fileID: 0}
     customScriptFunction: 
@@ -512,70 +512,6 @@ MonoBehaviour:
   mouthClip2D: 
   mouthLayer: 0
   waitTimeOffset: 0
---- !u!114 &70835824
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a0643024da91f402a9281e781736a4c6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id: 0
-  isDisplayed: 1
-  showComment: 0
-  comment: 
-  willWait: 1
-  endAction: 0
-  skipAction: -1
-  skipActionActual: {fileID: 0}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  endings:
-  - resultAction: 0
-    skipAction: -1
-    skipActionActual: {fileID: 0}
-    linkedCutscene: {fileID: 0}
-    linkedAsset: {fileID: 0}
-  isEnabled: 1
-  isAssetFile: 0
-  isBreakPoint: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 14
-    y: 14
-    width: 300
-    height: 280
-  overrideColor: {r: 1, g: 1, b: 1, a: 1}
-  showOutputSockets: 1
-  parentActionListInEditor: {fileID: 1714119652740094326}
-  groupID: 0
-  charToMoveParameterID: -1
-  markerParameterID: -1
-  charToMoveID: 0
-  markerID: 0
-  marker: {fileID: 543474351}
-  isPlayer: 1
-  playerID: -1
-  playerParameterID: -1
-  charToMove: {fileID: 0}
-  speed: 0
-  pathFind: 1
-  doFloat: 0
-  positionOffset: {x: 0, y: 0, z: 0}
-  positionOffsetParameterID: -1
-  doTimeLimit: 0
-  maxTimeParameterID: -1
-  maxTime: 10
-  onReachTimeLimit: 0
-  minDistance: 0
-  movePathNode: 0
-  nodeIndex: 0
-  nodeIndexParameterID: -1
-  faceAfter: 0
 --- !u!114 &85933517
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -688,7 +624,7 @@ Transform:
   m_GameObject: {fileID: 128750670}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 20.49, y: -1.23, z: 0}
+  m_LocalPosition: {x: -6.440001, y: -3.46, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -921,7 +857,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 131362046}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -1025,7 +961,7 @@ Transform:
   m_GameObject: {fileID: 156019232}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0.0026307504, w: 0.99999654}
-  m_LocalPosition: {x: 30.98, y: 1.48, z: 0}
+  m_LocalPosition: {x: 3.8999987, y: -0.6500001, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1122,7 +1058,7 @@ Transform:
   m_GameObject: {fileID: 201787809}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.87410337, w: 0.48573986}
-  m_LocalPosition: {x: 37.41, y: 0.08, z: 0}
+  m_LocalPosition: {x: 10.329999, y: -2.0500002, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1224,6 +1160,100 @@ Transform:
   - {fileID: 377880512}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &256485790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fadbe8a8547c845659eb5618f68e5019, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  willWait: 0
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  endings:
+  - resultAction: 0
+    skipAction: -1
+    skipActionActual: {fileID: 0}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 23
+    y: 471
+    width: 300
+    height: 152
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 1505156409973609405}
+  groupID: 0
+  parameterID: -1
+  constantID: 0
+  hotspot: {fileID: 128750672}
+  interactionType: 0
+  changeType: 1
+  number: 1
+--- !u!114 &287317581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fadbe8a8547c845659eb5618f68e5019, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  willWait: 0
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  endings:
+  - resultAction: 1
+    skipAction: -1
+    skipActionActual: {fileID: 0}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 868.7062
+    y: 562.5
+    width: 300
+    height: 152
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 0}
+  groupID: 0
+  parameterID: -1
+  constantID: 0
+  hotspot: {fileID: 764805375}
+  interactionType: 0
+  changeType: 1
+  number: 1
 --- !u!114 &290571780
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1345,58 +1375,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   ignoreWhenSkipping: 0
---- !u!114 &357818721
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a20a14d7555494a439c838ed9465bb15, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id: 0
-  isDisplayed: 1
-  showComment: 0
-  comment: 
-  willWait: 1
-  endAction: 0
-  skipAction: -99
-  skipActionActual: {fileID: 0}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  endings:
-  - resultAction: 1
-    skipAction: -1
-    skipActionActual: {fileID: 0}
-    linkedCutscene: {fileID: 0}
-    linkedAsset: {fileID: 0}
-  isEnabled: 1
-  isAssetFile: 0
-  isBreakPoint: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 14
-    y: 14
-    width: 300
-    height: 152
-  overrideColor: {r: 1, g: 1, b: 1, a: 1}
-  showOutputSockets: 1
-  parentActionListInEditor: {fileID: 6259062804857278369}
-  groupID: 0
-  parameterID: -1
-  constantID: 0
-  conversation: {fileID: 8635720833167487260}
-  overrideOptionSocketIDs: 
-  overrideOptions: 0
-  setElement: 0
-  menuName: 
-  containerElementName: 
-  menuParameterID: -1
-  elementParameterID: -1
-  numSockets: 1
 --- !u!114 &368298587
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1538,103 +1516,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1659034762}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &543474349
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 543474350}
-  - component: {fileID: 543474352}
-  - component: {fileID: 543474351}
-  m_Layer: 2
-  m_Name: 'Marker2D: Streets2'
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &543474350
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 543474349}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.29, y: -0.67, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1362259138}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &543474351
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 543474349}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bbbbb3c8d2a7340dab40d45d6033e69e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!212 &543474352
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 543474349}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 0
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 100
-  m_Sprite: {fileID: 21300000, guid: a382d15559a7f4142b779456429986b2, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!1 &543580416
 GameObject:
   m_ObjectHideFlags: 0
@@ -1853,7 +1734,7 @@ MonoBehaviour:
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   endings:
-  - resultAction: 1
+  - resultAction: 0
     skipAction: -1
     skipActionActual: {fileID: 0}
     linkedCutscene: {fileID: 0}
@@ -1913,7 +1794,7 @@ Transform:
   m_GameObject: {fileID: 663025615}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.0004483317, w: 0.99999994}
-  m_LocalPosition: {x: 23.28, y: -0.95, z: 0}
+  m_LocalPosition: {x: -3.8000002, y: -3.0800002, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1983,6 +1864,53 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &664065730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fadbe8a8547c845659eb5618f68e5019, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  willWait: 0
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  endings:
+  - resultAction: 1
+    skipAction: -1
+    skipActionActual: {fileID: 0}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 27
+    y: 671.5
+    width: 300
+    height: 152
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 1505156409973609405}
+  groupID: 0
+  parameterID: -1
+  constantID: 0
+  hotspot: {fileID: 128750672}
+  interactionType: 0
+  changeType: 1
+  number: 0
 --- !u!1 &672578842
 GameObject:
   m_ObjectHideFlags: 0
@@ -2164,7 +2092,7 @@ Transform:
   m_GameObject: {fileID: 764805373}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 20.49, y: -1.23, z: 0}
+  m_LocalPosition: {x: -6.440001, y: -3.46, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2659,7 +2587,7 @@ Transform:
   m_GameObject: {fileID: 900254306}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 41.48, y: 0.49, z: 0}
+  m_LocalPosition: {x: 14.4, y: -1.6400001, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3095,7 +3023,7 @@ MonoBehaviour:
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   endings:
-  - resultAction: 1
+  - resultAction: 0
     skipAction: -1
     skipActionActual: {fileID: 0}
     linkedCutscene: {fileID: 0}
@@ -3169,10 +3097,10 @@ MonoBehaviour:
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 2896355478473729461}
   groupID: 0
-  chooseSceneBy: 0
+  chooseSceneBy: 1
   sceneNumber: 4
   sceneNumberParameterID: -1
-  sceneName: 
+  sceneName: Scene 6 -Back of the Shrine
   sceneNameParameterID: -1
   assignScreenOverlay: 0
   onlyPreload: 0
@@ -3260,6 +3188,53 @@ MonoBehaviour:
   menuParameterID: -1
   elementParameterID: -1
   numSockets: 0
+--- !u!114 &1030303460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fadbe8a8547c845659eb5618f68e5019, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  willWait: 0
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  endings:
+  - resultAction: 0
+    skipAction: -1
+    skipActionActual: {fileID: 0}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 852.7062
+    y: 347
+    width: 300
+    height: 152
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 0}
+  groupID: 0
+  parameterID: -1
+  constantID: 0
+  hotspot: {fileID: 764805375}
+  interactionType: 0
+  changeType: 1
+  number: 0
 --- !u!114 &1037503068
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3667,10 +3642,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1656218792935578080}
-  - {fileID: 6259062804864247393}
-  - {fileID: 1239919691122445698}
-  - {fileID: 1714119652750995638}
   - {fileID: 3007142401439409063}
   - {fileID: 3289149717850348102}
   - {fileID: 1505156409963772541}
@@ -3692,67 +3663,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   is2D: 0
---- !u!114 &1331638873
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed656dc9f403a441f8fe89408c7a7189, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id: 0
-  isDisplayed: 1
-  showComment: 0
-  comment: 
-  willWait: 0
-  endAction: 0
-  skipAction: -1
-  skipActionActual: {fileID: 0}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  endings:
-  - resultAction: 0
-    skipAction: -1
-    skipActionActual: {fileID: 0}
-    linkedCutscene: {fileID: 0}
-    linkedAsset: {fileID: 0}
-  isEnabled: 1
-  isAssetFile: 0
-  isBreakPoint: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 14
-    y: 14
-    width: 300
-    height: 172
-  overrideColor: {r: 1, g: 1, b: 1, a: 1}
-  showOutputSockets: 1
-  parentActionListInEditor: {fileID: 1239919691132462146}
-  groupID: 0
-  constantID: 0
-  parameterID: -1
-  messageParameterID: -1
-  isPlayer: 1
-  playerID: -1
-  speaker: {fileID: 0}
-  messageText: I can go over there
-  lineID: -1
-  multiLineIDs: 
-  isBackground: 0
-  noAnimation: 0
-  headClip: {fileID: 0}
-  mouthClip: {fileID: 0}
-  play2DHeadAnim: 0
-  headClip2D: 
-  headLayer: 0
-  play2DMouthAnim: 0
-  mouthClip2D: 
-  mouthLayer: 0
-  waitTimeOffset: 0
 --- !u!1 &1356705491
 GameObject:
   m_ObjectHideFlags: 0
@@ -3785,90 +3695,6 @@ Transform:
   - {fileID: 1698827023}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1362184439
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1362184440}
-  - component: {fileID: 1362184441}
-  m_Layer: 0
-  m_Name: back of the shrine 2 skelet
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1362184440
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1362184439}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 34.9, y: 2.72, z: 0}
-  m_LocalScale: {x: 1.2887205, y: 1.2887205, z: 1.2887205}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2123504497}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &1362184441
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1362184439}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7bcfc78d49f065d4187384255aa1cb22, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 25, y: 14.074707}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!1 &1362259137
 GameObject:
   m_ObjectHideFlags: 0
@@ -3904,9 +3730,6 @@ Transform:
   - {fileID: 1455554962}
   - {fileID: 201787810}
   - {fileID: 1925293210}
-  - {fileID: 543474350}
-  - {fileID: 3205813142708723998}
-  - {fileID: 3623410971684266736}
   m_Father: {fileID: 117383773}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1418970504
@@ -4064,7 +3887,7 @@ Transform:
   m_GameObject: {fileID: 1455554961}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.8878219, w: 0.46018735}
-  m_LocalPosition: {x: 14.73, y: -4.87, z: 0}
+  m_LocalPosition: {x: -12.350001, y: -7, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4163,9 +3986,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1970274280}
   - {fileID: 7220789343120668014}
-  - {fileID: 3860906281744128377}
   m_Father: {fileID: 117383773}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1489242811 stripped
@@ -4261,7 +4082,7 @@ Transform:
   m_GameObject: {fileID: 1516381557}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 20.49, y: -1.23, z: 0}
+  m_LocalPosition: {x: -6.440001, y: -3.46, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4425,7 +4246,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -4.7554016, y: -2.1042507}
+  m_Offset: {x: -4.8709507, y: -2.1042507}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -4436,7 +4257,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.2137299, y: 2.9699588}
+  m_Size: {x: 2.444829, y: 2.9699588}
   m_EdgeRadius: 0
 --- !u!1 &1597081026
 GameObject:
@@ -4927,54 +4748,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1893321118
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f1d11677f69f745f88dbe9922511d53f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id: 0
-  isDisplayed: 1
-  showComment: 0
-  comment: 
-  willWait: 0
-  endAction: 0
-  skipAction: -99
-  skipActionActual: {fileID: 0}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  endings: []
-  isEnabled: 1
-  isAssetFile: 0
-  isBreakPoint: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 9
-    y: 333
-    width: 300
-    height: 164
-  overrideColor: {r: 1, g: 1, b: 1, a: 1}
-  showOutputSockets: 1
-  parentActionListInEditor: {fileID: 1714119652740094326}
-  groupID: 0
-  chooseSceneBy: 1
-  sceneNumber: 0
-  sceneNumberParameterID: -1
-  sceneName: TEMPLATE
-  sceneNameParameterID: -1
-  assignScreenOverlay: 0
-  onlyPreload: 0
-  relativePosition: 0
-  relativeMarker: {fileID: 0}
-  relativeMarkerID: 0
-  relativeMarkerParameterID: -1
-  forceReload: 0
 --- !u!114 &1919534310
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5058,7 +4831,7 @@ Transform:
   m_GameObject: {fileID: 1925293209}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0.5545284, w: 0.8321648}
-  m_LocalPosition: {x: 18.27, y: -3.98, z: 0}
+  m_LocalPosition: {x: -8.81, y: -6.11, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5128,98 +4901,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1955430165
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed656dc9f403a441f8fe89408c7a7189, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id: 0
-  isDisplayed: 1
-  showComment: 0
-  comment: 
-  willWait: 0
-  endAction: 0
-  skipAction: -1
-  skipActionActual: {fileID: 0}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  endings:
-  - resultAction: 1
-    skipAction: -1
-    skipActionActual: {fileID: 0}
-    linkedCutscene: {fileID: 0}
-    linkedAsset: {fileID: 0}
-  isEnabled: 1
-  isAssetFile: 0
-  isBreakPoint: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 14
-    y: 14
-    width: 300
-    height: 187
-  overrideColor: {r: 1, g: 1, b: 1, a: 1}
-  showOutputSockets: 1
-  parentActionListInEditor: {fileID: 1656218792946806816}
-  groupID: 0
-  constantID: 0
-  parameterID: -1
-  messageParameterID: -1
-  isPlayer: 1
-  playerID: -1
-  speaker: {fileID: 0}
-  messageText: 'I haven''t seen this street vendor before '
-  lineID: -1
-  multiLineIDs: 
-  isBackground: 0
-  noAnimation: 0
-  headClip: {fileID: 0}
-  mouthClip: {fileID: 0}
-  play2DHeadAnim: 0
-  headClip2D: 
-  headLayer: 0
-  play2DMouthAnim: 0
-  mouthClip2D: 
-  mouthLayer: 0
-  waitTimeOffset: 0.7
---- !u!1 &1970274279
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1970274280}
-  m_Layer: 0
-  m_Name: DELETE THIS - ALL ENTRACES TO THE SCENE SHOULD HAVE PLAYER START
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1970274280
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1970274279}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1463494364}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1976217263
 GameObject:
   m_ObjectHideFlags: 0
@@ -5491,10 +5172,9 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 2.863888, y: 1.2449081, z: -0.08112022}
-  m_LocalScale: {x: 0.7759634, y: 0.7759634, z: 0.7759634}
+  m_LocalScale: {x: 1.0021939, y: 1.0021939, z: 1.0021939}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1362184440}
+  m_Children: []
   m_Father: {fileID: 813054820}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &2123504498
@@ -5538,7 +5218,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: ab8c3b2047e58ff45bba60706c04d94b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7bcfc78d49f065d4187384255aa1cb22, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -5611,7 +5291,7 @@ MonoBehaviour:
   groups: []
   backupData:
   - className: AC.ActionSpeech
-    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":14.0,"y":14.0,"width":300.0,"height":207.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":152963550709317549_0},"groupID":0,"constantID":0,"parameterID":-1,"messageParameterID":-1,"isPlayer":false,"playerID":-1,"speaker":{"instanceID":235050},"messageText":"Get
+    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":14.0,"y":14.0,"width":300.0,"height":207.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":152963550709317549_0},"groupID":0,"constantID":0,"parameterID":-1,"messageParameterID":-1,"isPlayer":false,"playerID":-1,"speaker":{"instanceID":54330},"messageText":"Get
       to work like the rest of us!\n","lineID":-1,"multiLineIDs":[],"isBackground":false,"noAnimation":false,"headClip":{"instanceID":0},"mouthClip":{"instanceID":0},"play2DHeadAnim":false,"headClip2D":"","headLayer":0,"play2DMouthAnim":false,"mouthClip2D":"","mouthLayer":0,"waitTimeOffset":0.0}'
     endingReferencesBuffer: 00
     endingOverrideIndex: 00000000
@@ -5923,71 +5603,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1239919691122217378
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1239919691122445698}
-  - component: {fileID: 1239919691132462146}
-  m_Layer: 0
-  m_Name: 'TEMPLATE SCENE: Look at'
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1239919691122445698
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1239919691122217378}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1212281321}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1239919691132462146
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1239919691122217378}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a1e6413216104fd580c7ce85907039c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  actions:
-  - {fileID: 1331638873}
-  isSkippable: 1
-  triggerTime: 0
-  autosaveAfter: 0
-  actionListType: 0
-  conversation: {fileID: 0}
-  assetFile: {fileID: 0}
-  source: 0
-  unfreezePauseMenus: 1
-  useParameters: 0
-  parameters: []
-  tagID: 0
-  syncParamValues: 1
-  groups: []
-  backupData:
-  - className: AC.ActionSpeech
-    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":14.0,"y":14.0,"width":300.0,"height":172.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":1239919691132462146_0},"groupID":0,"constantID":0,"parameterID":-1,"messageParameterID":-1,"isPlayer":true,"playerID":-1,"speaker":{"instanceID":0},"messageText":"I
-      can go over there","lineID":-1,"multiLineIDs":[],"isBackground":false,"noAnimation":false,"headClip":{"instanceID":0},"mouthClip":{"instanceID":0},"play2DHeadAnim":false,"headClip2D":"","headLayer":0,"play2DMouthAnim":false,"mouthClip2D":"","mouthLayer":0,"waitTimeOffset":0.0}'
-    endingReferencesBuffer: 00
-    endingOverrideIndex: 00000000
 --- !u!114 &1397926407554645363
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6112,6 +5727,8 @@ MonoBehaviour:
   actions:
   - {fileID: 1609658755}
   - {fileID: 655898121}
+  - {fileID: 256485790}
+  - {fileID: 664065730}
   isSkippable: 1
   triggerTime: 0
   autosaveAfter: 0
@@ -6136,140 +5753,6 @@ MonoBehaviour:
     jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":1,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":13.0,"y":287.0,"width":300.0,"height":132.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":1505156409973609405_0},"groupID":0,"invAction":0,"parameterID":-1,"invID":3,"replaceParameterID":-1,"invIDReplace":0,"setAmount":false,"amountParameterID":-1,"amount":1,"setPlayer":false,"playerID":0,"addToFront":false,"removeLast":false,"itemRemoveMethod":0,"categoryID":0,"categoryIDParameterID":-1}'
     endingReferencesBuffer: 00
     endingOverrideIndex: 00000000
---- !u!4 &1656218792935578080
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1656218792936064448}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1212281321}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1656218792936064448
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1656218792935578080}
-  - component: {fileID: 1656218792946806816}
-  m_Layer: 0
-  m_Name: 'TEMPLATE NPC: Look at'
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1656218792946806816
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1656218792936064448}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a1e6413216104fd580c7ce85907039c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  actions:
-  - {fileID: 1955430165}
-  isSkippable: 1
-  triggerTime: 0
-  autosaveAfter: 0
-  actionListType: 0
-  conversation: {fileID: 0}
-  assetFile: {fileID: 0}
-  source: 0
-  unfreezePauseMenus: 1
-  useParameters: 0
-  parameters: []
-  tagID: 0
-  syncParamValues: 1
-  groups: []
-  backupData:
-  - className: AC.ActionSpeech
-    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":1,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":14.0,"y":14.0,"width":300.0,"height":187.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":1656218792946806816_0},"groupID":0,"constantID":0,"parameterID":-1,"messageParameterID":-1,"isPlayer":true,"playerID":-1,"speaker":{"instanceID":0},"messageText":"I
-      haven''t seen this street vendor before ","lineID":-1,"multiLineIDs":[],"isBackground":false,"noAnimation":false,"headClip":{"instanceID":0},"mouthClip":{"instanceID":0},"play2DHeadAnim":false,"headClip2D":"","headLayer":0,"play2DMouthAnim":false,"mouthClip2D":"","mouthLayer":0,"waitTimeOffset":0.699999988079071}'
-    endingReferencesBuffer: 00
-    endingOverrideIndex: 00000000
---- !u!114 &1714119652740094326
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1714119652750830742}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a1e6413216104fd580c7ce85907039c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  actions:
-  - {fileID: 70835824}
-  - {fileID: 1893321118}
-  isSkippable: 1
-  triggerTime: 0
-  autosaveAfter: 0
-  actionListType: 0
-  conversation: {fileID: 0}
-  assetFile: {fileID: 0}
-  source: 0
-  unfreezePauseMenus: 1
-  useParameters: 0
-  parameters: []
-  tagID: 0
-  syncParamValues: 1
-  groups: []
-  backupData:
-  - className: AC.ActionCharPathFind
-    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":true,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":14.0,"y":14.0,"width":300.0,"height":280.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":1714119652740094326_0},"groupID":0,"charToMoveParameterID":-1,"markerParameterID":-1,"charToMoveID":0,"markerID":0,"marker":{"instanceID":543474351_0},"isPlayer":true,"playerID":-1,"playerParameterID":-1,"charToMove":{"instanceID":0},"speed":0,"pathFind":true,"doFloat":false,"positionOffset":{"x":0.0,"y":0.0,"z":0.0},"positionOffsetParameterID":-1,"doTimeLimit":false,"maxTimeParameterID":-1,"maxTime":10.0,"onReachTimeLimit":0,"minDistance":0.0,"movePathNode":0,"nodeIndex":0,"nodeIndexParameterID":-1,"faceAfter":false}'
-    endingReferencesBuffer: 00
-    endingOverrideIndex: 00000000
-  - className: AC.ActionScene
-    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-99,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":9.0,"y":333.0,"width":300.0,"height":164.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":1714119652740094326_0},"groupID":0,"chooseSceneBy":1,"sceneNumber":0,"sceneNumberParameterID":-1,"sceneName":"TEMPLATE","sceneNameParameterID":-1,"assignScreenOverlay":false,"onlyPreload":false,"relativePosition":false,"relativeMarker":{"instanceID":0},"relativeMarkerID":0,"relativeMarkerParameterID":-1,"forceReload":false}'
-    endingReferencesBuffer: 
-    endingOverrideIndex: 
---- !u!1 &1714119652750830742
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1714119652750995638}
-  - component: {fileID: 1714119652740094326}
-  m_Layer: 0
-  m_Name: 'TEMPLATE SCENE: Go (CHANGE SCENE NAME)'
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1714119652750995638
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1714119652750830742}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1212281321}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2896355478462435413
 GameObject:
   m_ObjectHideFlags: 0
@@ -6329,7 +5812,11 @@ MonoBehaviour:
   tagID: 0
   syncParamValues: 1
   groups: []
-  backupData: []
+  backupData:
+  - className: AC.ActionScene
+    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-99,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":14.0,"y":14.0,"width":300.0,"height":164.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":2896355478473729461_0},"groupID":0,"chooseSceneBy":0,"sceneNumber":4,"sceneNumberParameterID":-1,"sceneName":"","sceneNameParameterID":-1,"assignScreenOverlay":false,"onlyPreload":false,"relativePosition":false,"relativeMarker":{"instanceID":0},"relativeMarkerID":0,"relativeMarkerParameterID":-1,"forceReload":false}'
+    endingReferencesBuffer: 
+    endingOverrideIndex: 
 --- !u!114 &3007142401432373863
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6395,103 +5882,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1212281321}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &3205813142687565598
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3205813142708370750}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 0
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 100
-  m_Sprite: {fileID: 21300000, guid: a382d15559a7f4142b779456429986b2, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!1 &3205813142708370750
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3205813142708723998}
-  - component: {fileID: 3205813142687565598}
-  - component: {fileID: 3205813142714403038}
-  m_Layer: 2
-  m_Name: 'Marker2D: Street Food Seller'
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &3205813142708723998
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3205813142708370750}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -2.269, y: -1.92, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1362259138}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
---- !u!114 &3205813142714403038
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3205813142708370750}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bbbbb3c8d2a7340dab40d45d6033e69e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &3289149717843293062
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6558,209 +5948,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &3623410971683978960
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3623410971684266736}
-  - component: {fileID: 3623410971696628976}
-  - component: {fileID: 3623410971689978672}
-  m_Layer: 2
-  m_Name: 'Marker2D: Man1'
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &3623410971684266736
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3623410971683978960}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -1.25, y: -2.07, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1362259138}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
---- !u!114 &3623410971689978672
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3623410971683978960}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bbbbb3c8d2a7340dab40d45d6033e69e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!212 &3623410971696628976
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3623410971683978960}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 0
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 100
-  m_Sprite: {fileID: 21300000, guid: a382d15559a7f4142b779456429986b2, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!1 &3860906281743762777
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3860906281744128377}
-  - component: {fileID: 3860906281756508025}
-  - component: {fileID: 3860906281749786809}
-  m_Layer: 2
-  m_Name: PlayerStart2D - Streets2
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &3860906281744128377
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3860906281743762777}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}
-  m_LocalPosition: {x: 3.3, y: -0.78000003, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1463494364}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
---- !u!114 &3860906281749786809
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3860906281743762777}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ffb48ecf9de44666b3779fe84044e36, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  chooseSceneBy: 1
-  previousScene: 0
-  previousSceneName: Streets2
-  fadeInOnStart: 0
-  fadeSpeed: 0.5
-  cameraOnStart: {fileID: 0}
-  playerIDs: 
-  limitByPlayer: 0
-  limitByActive: 0
---- !u!212 &3860906281756508025
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3860906281743762777}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 0
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 100
-  m_Sprite: {fileID: 21300000, guid: 8e02cd43349e7466f93bf719f9db9fad, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!114 &3944114613221577766
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6959,7 +6146,7 @@ Transform:
   m_GameObject: {fileID: 3944114613227069894}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 20.49, y: -1.23, z: 0}
+  m_LocalPosition: {x: -6.44, y: -3.46, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7065,7 +6252,7 @@ Transform:
   m_GameObject: {fileID: 4308582526707188354}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -27.079998, y: -2.13, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7153,7 +6340,7 @@ MonoBehaviour:
   groups: []
   backupData:
   - className: AC.ActionQTE
-    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":2,"skipAction":2,"skipActionActual":{"instanceID":235106},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}},{"resultAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":14.0,"y":14.0,"width":300.0,"height":320.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":4325009480654024928_0},"groupID":0,"resultActionTrue":0,"skipActionTrue":-1,"skipActionTrueActual":{"instanceID":0},"linkedCutsceneTrue":{"instanceID":0},"linkedAssetTrue":{"instanceID":0},"resultActionFail":1,"skipActionFail":-1,"skipActionFailActual":{"instanceID":0},"linkedCutsceneFail":{"instanceID":0},"linkedAssetFail":{"instanceID":0},"qteType":2,"qteHoldReleaseBehaviour":0,"menuNameParameterID":-1,"menuName":"QTE
+    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":2,"skipAction":2,"skipActionActual":{"instanceID":54398},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}},{"resultAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":14.0,"y":14.0,"width":300.0,"height":320.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":4325009480654024928_0},"groupID":0,"resultActionTrue":0,"skipActionTrue":-1,"skipActionTrueActual":{"instanceID":0},"linkedCutsceneTrue":{"instanceID":0},"linkedAssetTrue":{"instanceID":0},"resultActionFail":1,"skipActionFail":-1,"skipActionFailActual":{"instanceID":0},"linkedCutsceneFail":{"instanceID":0},"linkedAssetFail":{"instanceID":0},"qteType":2,"qteHoldReleaseBehaviour":0,"menuNameParameterID":-1,"menuName":"QTE
       prompt","animateUI":false,"wrongKeyFails":false,"axisThreshold":0.20000000298023225,"inputNameParameterID":-1,"inputName":"Click
       E","durationParameterID":-1,"duration":4.0,"holdDuration":0.0,"cooldownTime":0.5,"targetPressesParameterID":-1,"targetPresses":1,"doCooldown":true,"runIndefinitely":false,"verticalInputName":"","verticalInputNameParameterID":-1,"rotationIsClockwise":true,"targetRotations":1.0,"targetRotationsParameterID":-1}'
     endingReferencesBuffer: 0100
@@ -7187,6 +6374,8 @@ MonoBehaviour:
   - {fileID: 1088084847}
   - {fileID: 585042718}
   - {fileID: 904556612}
+  - {fileID: 1030303460}
+  - {fileID: 287317581}
   isSkippable: 1
   triggerTime: 0
   autosaveAfter: 0
@@ -7202,22 +6391,31 @@ MonoBehaviour:
   groups: []
   backupData:
   - className: AC.ActionSpeech
-    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":14.0,"y":14.0,"width":300.0,"height":187.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":0},"groupID":0,"constantID":0,"parameterID":-1,"messageParameterID":-1,"isPlayer":true,"playerID":-1,"speaker":{"instanceID":0},"messageText":"The
+    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":14.0,"y":14.0,"width":300.0,"height":187.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":4420387916851898493_0},"groupID":0,"constantID":0,"parameterID":-1,"messageParameterID":-1,"isPlayer":true,"playerID":-1,"speaker":{"instanceID":0},"messageText":"The
       punishment is severe... but I am very cold.","lineID":-1,"multiLineIDs":[],"isBackground":false,"noAnimation":false,"headClip":{"instanceID":0},"mouthClip":{"instanceID":0},"play2DHeadAnim":false,"headClip2D":"","headLayer":0,"play2DMouthAnim":false,"mouthClip2D":"","mouthLayer":0,"waitTimeOffset":0.0}'
     endingReferencesBuffer: 00
     endingOverrideIndex: 00000000
   - className: AC.ActionInventorySet
-    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":15.0,"y":275.0,"width":300.0,"height":132.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":0},"groupID":0,"invAction":0,"parameterID":-1,"invID":4,"replaceParameterID":-1,"invIDReplace":0,"setAmount":false,"amountParameterID":-1,"amount":1,"setPlayer":false,"playerID":0,"addToFront":false,"removeLast":false,"itemRemoveMethod":0,"categoryID":0,"categoryIDParameterID":-1}'
+    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":15.0,"y":275.0,"width":300.0,"height":132.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":4420387916851898493_0},"groupID":0,"invAction":0,"parameterID":-1,"invID":4,"replaceParameterID":-1,"invIDReplace":0,"setAmount":false,"amountParameterID":-1,"amount":1,"setPlayer":false,"playerID":0,"addToFront":false,"removeLast":false,"itemRemoveMethod":0,"categoryID":0,"categoryIDParameterID":-1}'
     endingReferencesBuffer: 00
     endingOverrideIndex: 00000000
   - className: AC.ActionEvent
-    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":389.0,"y":50.0,"width":300.0,"height":191.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":0},"groupID":0,"unityEvent":{"m_PersistentCalls":{"m_Calls":[{"m_Target":{"instanceID":235046},"m_TargetAssemblyTypeName":"UnityEngine.GameObject,
+    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":2,"skipAction":3,"skipActionActual":{"instanceID":54354},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":389.0,"y":50.0,"width":300.0,"height":211.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":4420387916851898493_0},"groupID":0,"unityEvent":{"m_PersistentCalls":{"m_Calls":[{"m_Target":{"instanceID":54326},"m_TargetAssemblyTypeName":"UnityEngine.GameObject,
       UnityEngine","m_MethodName":"SetActive","m_Mode":6,"m_Arguments":{"m_ObjectArgument":{"instanceID":0},"m_ObjectArgumentAssemblyTypeName":"UnityEngine.Object,
       UnityEngine","m_IntArgument":0,"m_FloatArgument":0.0,"m_StringArgument":"","m_BoolArgument":true},"m_CallState":2}]}},"skipEvent":{"m_PersistentCalls":{"m_Calls":[]}},"ignoreWhenSkipping":false}'
+    endingReferencesBuffer: 01
+    endingOverrideIndex: 03000000
+  - className: AC.ActionCharPathFind
+    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":true,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":391.0,"y":316.0,"width":300.0,"height":335.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":4420387916851898493_0},"groupID":0,"charToMoveParameterID":-1,"markerParameterID":-1,"charToMoveID":364950,"markerID":0,"marker":{"instanceID":201787811_0},"isPlayer":false,"playerID":-1,"playerParameterID":-1,"charToMove":{"instanceID":54330},"speed":0,"pathFind":true,"doFloat":false,"positionOffset":{"x":0.0,"y":0.0,"z":0.0},"positionOffsetParameterID":-1,"doTimeLimit":false,"maxTimeParameterID":-1,"maxTime":10.0,"onReachTimeLimit":0,"minDistance":0.0,"movePathNode":0,"nodeIndex":0,"nodeIndexParameterID":-1,"faceAfter":false}'
     endingReferencesBuffer: 00
     endingOverrideIndex: 00000000
-  - className: AC.ActionInstantiate
-    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":1,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":391.0,"y":316.0,"width":300.0,"height":132.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":0},"groupID":0,"gameObject":{"instanceID":0},"parameterID":-1,"constantID":0,"replaceGameObject":{"instanceID":0},"replaceParameterID":-1,"replaceConstantID":0,"relativeGameObject":{"instanceID":0},"relativeGameObjectID":0,"relativeGameObjectParameterID":-1,"relativeVectorParameterID":-1,"relativeVector":{"x":0.0,"y":0.0,"z":0.0},"vectorVarParameterID":-1,"vectorVarID":0,"variableLocation":0,"invAction":0,"positionRelativeTo":0,"variables":{"instanceID":0},"variablesConstantID":0,"spawnedObjectParameterID":-1}'
+  - className: AC.ActionCharFace
+    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":true,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":391.0,"y":686.0,"width":300.0,"height":267.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":4420387916851898493_0},"groupID":0,"charToMoveParameterID":-1,"faceObjectParameterID":-1,"charToMoveID":364950,"faceObjectID":0,"isInstant":false,"charToMove":{"instanceID":54330},"faceObject":{"instanceID":2910782487758739165_767870167},"copyRotation":false,"facePlayer":false,"facePlayerID":-1,"faceType":0,"isPlayer":false,"playerID":-1,"playerParameterID":-1,"lookUpDown":false,"stopLooking":false,"lookAtHead":false}'
+    endingReferencesBuffer: 00
+    endingOverrideIndex: 00000000
+  - className: AC.ActionSpeech
+    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":1,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":851.0,"y":44.0,"width":300.0,"height":227.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":4420387916851898493_0},"groupID":0,"constantID":364950,"parameterID":-1,"messageParameterID":-1,"isPlayer":false,"playerID":-1,"speaker":{"instanceID":54330},"messageText":"Hey!
+      What are you doing??","lineID":-1,"multiLineIDs":[],"isBackground":false,"noAnimation":false,"headClip":{"instanceID":0},"mouthClip":{"instanceID":0},"play2DHeadAnim":false,"headClip2D":"","headLayer":0,"play2DMouthAnim":false,"mouthClip2D":"","mouthLayer":0,"waitTimeOffset":0.0}'
     endingReferencesBuffer: 00
     endingOverrideIndex: 00000000
 --- !u!4 &4420387916858589629
@@ -7281,7 +6479,7 @@ MonoBehaviour:
   groups: []
   backupData:
   - className: AC.ActionSpeech
-    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":14.0,"y":14.0,"width":300.0,"height":187.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":0},"groupID":0,"constantID":0,"parameterID":-1,"messageParameterID":-1,"isPlayer":true,"playerID":-1,"speaker":{"instanceID":0},"messageText":"These
+    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":14.0,"y":14.0,"width":300.0,"height":187.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":4444651687403523306_0},"groupID":0,"constantID":0,"parameterID":-1,"messageParameterID":-1,"isPlayer":true,"playerID":-1,"speaker":{"instanceID":0},"messageText":"These
       clothes are wet, they are from someone of a higher status.","lineID":-1,"multiLineIDs":[],"isBackground":false,"noAnimation":false,"headClip":{"instanceID":0},"mouthClip":{"instanceID":0},"play2DHeadAnim":false,"headClip2D":"","headLayer":0,"play2DMouthAnim":false,"mouthClip2D":"","mouthLayer":0,"waitTimeOffset":0.0}'
     endingReferencesBuffer: 00
     endingOverrideIndex: 00000000
@@ -7390,7 +6588,7 @@ Transform:
   m_GameObject: {fileID: 4696487698305934870}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0.00933268, w: 0.9999565}
-  m_LocalPosition: {x: 19.78, y: 1.7, z: 0}
+  m_LocalPosition: {x: -7.3, y: -0.43000007, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7478,70 +6676,6 @@ MonoBehaviour:
     jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-99,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":14.0,"y":14.0,"width":300.0,"height":92.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":5163404320697945268_0},"groupID":0,"parameterID":-1,"timeToPause":0.0}'
     endingReferencesBuffer: 00
     endingOverrideIndex: 00000000
---- !u!114 &6259062804857278369
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6259062804864350785}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a1e6413216104fd580c7ce85907039c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  actions:
-  - {fileID: 357818721}
-  isSkippable: 1
-  triggerTime: 0
-  autosaveAfter: 0
-  actionListType: 0
-  conversation: {fileID: 0}
-  assetFile: {fileID: 0}
-  source: 0
-  unfreezePauseMenus: 1
-  useParameters: 0
-  parameters: []
-  tagID: 0
-  syncParamValues: 1
-  groups: []
-  backupData:
-  - className: AC.ActionConversation
-    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":true,"endAction":0,"skipAction":-99,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":1,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":14.0,"y":14.0,"width":300.0,"height":152.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":6259062804857278369_0},"groupID":0,"parameterID":-1,"constantID":0,"conversation":{"instanceID":8635720833167487260_0},"overrideOptionSocketIDs":[],"overrideOptions":false,"setElement":false,"menuName":"","containerElementName":"","menuParameterID":-1,"elementParameterID":-1,"numSockets":1}'
-    endingReferencesBuffer: 00
-    endingOverrideIndex: 00000000
---- !u!4 &6259062804864247393
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6259062804864350785}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1212281321}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6259062804864350785
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6259062804864247393}
-  - component: {fileID: 6259062804857278369}
-  m_Layer: 0
-  m_Name: 'TEMPLATE NPC: Talk to'
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!114 &7150376256263974797
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7593,7 +6727,7 @@ Transform:
   m_GameObject: {fileID: 7150376256275225197}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 21.09, y: -1.22, z: -1}
+  m_LocalPosition: {x: -5.88, y: -2.95, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7743,7 +6877,7 @@ Transform:
   m_GameObject: {fileID: 7220789343120894286}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0.46795177, w: 0.883754}
-  m_LocalPosition: {x: 15.02, y: -4.97, z: 0}
+  m_LocalPosition: {x: -12.06, y: -7.1, z: 0}
   m_LocalScale: {x: 0.97348, y: 0.97348, z: 0.97348}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7881,7 +7015,7 @@ MonoBehaviour:
   groups: []
   backupData:
   - className: AC.ActionSpeech
-    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":14.0,"y":14.0,"width":300.0,"height":207.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":8013991387963983146_0},"groupID":0,"constantID":0,"parameterID":-1,"messageParameterID":-1,"isPlayer":false,"playerID":-1,"speaker":{"instanceID":235050},"messageText":"I
+    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":14.0,"y":14.0,"width":300.0,"height":207.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":8013991387963983146_0},"groupID":0,"constantID":0,"parameterID":-1,"messageParameterID":-1,"isPlayer":false,"playerID":-1,"speaker":{"instanceID":54330},"messageText":"I
       will rather be  feeding this food to pigs!","lineID":-1,"multiLineIDs":[],"isBackground":false,"noAnimation":false,"headClip":{"instanceID":0},"mouthClip":{"instanceID":0},"play2DHeadAnim":false,"headClip2D":"","headLayer":0,"play2DMouthAnim":false,"mouthClip2D":"","mouthLayer":0,"waitTimeOffset":0.0}'
     endingReferencesBuffer: 00
     endingOverrideIndex: 00000000
