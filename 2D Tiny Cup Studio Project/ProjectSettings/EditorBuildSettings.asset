@@ -23,4 +23,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Build/Scene 6 -Back of the Shrine.unity
     guid: c9fa6e5b995a1e847a43048b24f59e0f
+  - enabled: 1
+    path: Assets/Scenes/Build/Demo Scene 1.unity
+    guid: bbda1268f3b305b4a9ea6e64df987b65
+  - enabled: 1
+    path: Assets/Scenes/Build/Demo Scene 2.unity
+    guid: dd528f4c6c6525949b2af5688426a74a
+  - enabled: 1
+    path: Assets/Scenes/Build/Demo Scene 3.unity
+    guid: 6095e780a57a17541aa62205980e738f
   m_configObjects: {}
