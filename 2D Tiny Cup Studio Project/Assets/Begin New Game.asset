@@ -41,8 +41,8 @@ MonoBehaviour:
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 0}
   groupID: 0
-  chooseSceneBy: 1
-  sceneNumber: 0
+  chooseSceneBy: 0
+  sceneNumber: 1
   sceneNumberParameterID: -1
   sceneName: Tutorial
   sceneNameParameterID: -1
