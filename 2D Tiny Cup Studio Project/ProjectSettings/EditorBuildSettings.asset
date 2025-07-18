@@ -9,19 +9,19 @@ EditorBuildSettings:
     path: Assets/Scenes/Build/!Main Menu.unity
     guid: 02cda4f325e4ea149b541f7f836025a3
   - enabled: 1
-    path: Assets/Scenes/Build/Scene 1 -Tutorial.unity
+    path: Assets/Scenes/Deprecated/Scene 1 -Tutorial.unity
     guid: 1723ce36cb944e2479448c8a1bfd9408
   - enabled: 1
-    path: Assets/Scenes/Build/Scene 2 -Streets.unity
+    path: Assets/Scenes/Deprecated/Scene 2 -Streets.unity
     guid: 93aa88af8a41cdc4aac9b51a7c3ed626
   - enabled: 1
-    path: Assets/Scenes/Build/Scene 3 -Streets2.unity
+    path: Assets/Scenes/Deprecated/Scene 3 -Streets2.unity
     guid: de11ff43f674ca545badb6d3733f963a
   - enabled: 1
-    path: Assets/Scenes/Build/Scene 5 -Shrine back Enterence.unity
+    path: Assets/Scenes/Deprecated/Scene 5 -Shrine back Enterence.unity
     guid: 2ea9161d1a781e64aad30d0f7345e0f4
   - enabled: 1
-    path: Assets/Scenes/Build/Scene 6 -Back of the Shrine.unity
+    path: Assets/Scenes/Deprecated/Scene 6 -Back of the Shrine.unity
     guid: c9fa6e5b995a1e847a43048b24f59e0f
   - enabled: 1
     path: Assets/Scenes/Build/Demo Scene 1.unity
