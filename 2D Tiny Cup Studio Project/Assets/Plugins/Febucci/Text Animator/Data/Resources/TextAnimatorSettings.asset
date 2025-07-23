@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: TextAnimatorSettings
   m_EditorClassIdentifier: 
   behaviors:
-    defaultDatabase: {fileID: 0}
+    defaultDatabase: {fileID: 11400000, guid: 0908cf23ee8145d44aac45e2e0217a69, type: 2}
     enabled: 1
     openingSymbol: 60
     closingSymbol: 62
@@ -23,7 +23,7 @@ MonoBehaviour:
     openingSymbol: 123
     closingSymbol: 125
   actions:
-    defaultDatabase: {fileID: 0}
+    defaultDatabase: {fileID: 11400000, guid: d0c3976b0e2bd804585ae0e09b2783e0, type: 2}
     enabled: 1
     openingSymbol: 60
     closingSymbol: 62

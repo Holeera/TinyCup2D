@@ -8407,12 +8407,12 @@ MonoBehaviour:
     layer: 
     color: {r: 0.99140024, g: 0.38683778, b: 0.7000327, a: 1}
     scale: 81
-  - z: 4.8654923
+  - z: 5.2403026
     order: 3
     layer: Characters
     color: {r: 0.29543132, g: 0.12835407, b: 0.46251386, a: 1}
     scale: 88
-  - z: 5.363868
+  - z: 7.1370096
     order: 4
     layer: Characters
     color: {r: 0.67399764, g: 0.42401606, b: 0.6870773, a: 1}
