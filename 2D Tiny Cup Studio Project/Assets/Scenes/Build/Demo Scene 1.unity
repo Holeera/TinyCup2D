@@ -723,7 +723,7 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 329
+    x: 330
     y: 251
     width: 300
     height: 164
@@ -734,7 +734,7 @@ MonoBehaviour:
   chooseSceneBy: 1
   sceneNumber: 0
   sceneNumberParameterID: -1
-  sceneName: 
+  sceneName: Demo Scene 2
   sceneNameParameterID: -1
   assignScreenOverlay: 0
   onlyPreload: 0
@@ -6448,9 +6448,9 @@ MonoBehaviour:
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   endings:
-  - resultAction: 1
-    skipAction: -1
-    skipActionActual: {fileID: 0}
+  - resultAction: 2
+    skipAction: 1
+    skipActionActual: {fileID: 123666643}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -6461,7 +6461,7 @@ MonoBehaviour:
     x: 14
     y: 14
     width: 300
-    height: 187
+    height: 207
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 7045904790023719712}
@@ -7760,7 +7760,7 @@ MonoBehaviour:
     layer: Characters
     color: {r: 0.29543132, g: 0.12835407, b: 0.46251386, a: 1}
     scale: 88
-  - z: 6.6188283
+  - z: 7.3880816
     order: 5
     layer: Characters
     color: {r: 0.67399764, g: 0.42401606, b: 0.6870773, a: 1}
