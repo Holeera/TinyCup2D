@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 1089f0e12ee9722499affe4b5ea00a29
+guid: cbd6a72cdc2f8904aafe8689f83422c1
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,127 +123,190 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: mother
+      name: vase
       rect:
         serializedVersion: 2
-        x: 343
-        y: 1288
-        width: 316
-        height: 560
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 1360
+        y: 558
+        width: 288
+        height: 615
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3abfceb959f56a24da76f31ec6896aa0
-      internalID: 606973239
+      spriteID: b7f9d34f4b6f6bc4eb6ef7823fe1cadd
+      internalID: 1712188046
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: random woman
+      name: ItemsUpdated_1
       rect:
         serializedVersion: 2
-        x: 743
-        y: 1282
-        width: 226
-        height: 565
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 1648
+        y: 1129
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9a99ce74803544c4784ed2f82c1bf29b
-      internalID: 1619718820
+      spriteID: 511334591d3af9e4fba689d778c39353
+      internalID: 1533226740
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: grandmother
+      name: ItemsUpdated_2
       rect:
         serializedVersion: 2
-        x: 176
-        y: 673
-        width: 227
-        height: 561
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 1645
+        y: 1114
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 773e3ea73a2b93c42aedfda63eca0da9
-      internalID: 607141953
+      spriteID: 2776f45b4bd4688409395b9211e4e595
+      internalID: -971671185
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: twin broken (old)
+      name: ItemsUpdated_3
       rect:
         serializedVersion: 2
-        x: 607
-        y: 685
-        width: 414
-        height: 559
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 1647
+        y: 1082
+        width: 10
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ed88699b33494cd499535b82e0bc3cbf
-      internalID: 1271040198
+      spriteID: a3ea01be11a961f4f83351e840e08a4c
+      internalID: -142048532
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fiance yurei
+      name: basket
       rect:
         serializedVersion: 2
-        x: 175
-        y: 80
-        width: 331
-        height: 563
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 140
+        y: 800
+        width: 377
+        height: 293
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 796097189dcd1234aa316a72169f6b77
-      internalID: -948999679
+      spriteID: be10bfd0fa8f25f42ad251fd069ff522
+      internalID: -617410662
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: twin yurei (old)
+      name: lantern
       rect:
         serializedVersion: 2
-        x: 655
-        y: 107
-        width: 414
-        height: 559
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 619
+        y: 838
+        width: 387
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e1ea48ce6b6f4d246b0793bd096bddf7
-      internalID: -1631358562
+      spriteID: 32c18c4860b547143bcc5861a9f800c7
+      internalID: -1870443524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pen
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 522
+        width: 451
+        height: 166
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2086da25f82fa046b58135edb354c00
+      internalID: -1107012992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dango
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 534
+        width: 76
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d451284fd295b24db74e8e01ef1d8e2
+      internalID: -442102364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paper
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 215
+        width: 332
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4a717b70f3df244c86f4cb270695167
+      internalID: -1297861923
       vertices: []
       indices: 
       edges: []
@@ -259,12 +322,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      fiance yurei: -948999679
-      grandmother: 607141953
-      mother: 606973239
-      random woman: 1619718820
-      twin broken (old): 1271040198
-      twin yurei (old): -1631358562
+      ItemsUpdated_1: 1533226740
+      ItemsUpdated_2: -971671185
+      ItemsUpdated_3: -142048532
+      basket: -617410662
+      dango: -442102364
+      lantern: -1870443524
+      paper: -1297861923
+      pen: -1107012992
+      vase: 1712188046
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

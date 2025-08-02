@@ -444,7 +444,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -218, y: 260}
+  m_AnchoredPosition: {x: -218, y: 377}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1347244064
@@ -467,7 +467,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "<shake>S              Y\t\ta\nt\t\t\to\t\tw\no\t\t\tu\t\ta\np\t\t\t\t\ty\n!</shake>             
+  m_text: "<shake>W              Y\t\ta\nt\t\t\to\t\tw\no\t\t\tu\t\ta\np\t\t\t\t\ty\n!</shake>             
     w \n\t\t\to\t\tf\nT\t\t\tn\t\tr\nh\t\t\t't\t\to\ni\t\t\t\t\tm\ne\t\t\tg\nf\t\t\te\t\t<rot>t\t\t\n!\t\t\tt\t\th\n\t\t\t\t\ti\n\t\t\t\t\ts</rot>"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1060,13 +1060,13 @@ MonoBehaviour:
   mainText: {fileID: 1347244064}
   clickPromptText: {fileID: 1928612151}
   messages:
-  - "\t\t\t<shake>S\n\t\t\tt\n\t\t\to\n\t\t\tp\n\t\t\t!\n\n\t\t\tT\n\t\t\th\n\t\t\ti\n\t\t\te\n\t\t\tf\n\t\t\t!</shake>\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t"
+  - "\t\t\t<shake>W\n\t\t\th\n\t\t\ta\n\t\t\tt\n\t\t\t\n\n\t\t\th\n\t\t\ta\n\t\t\tv\n\t\t\te\n\t\t\t\n\t\t\tI\n\n\t\t\td\n\t\t\to\n\t\t\tn\n\t\t\te</shake>\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t"
   - "              \t\t<shake>Y\t\t\n\t\t\to\t\t\n\t\t\tu\t\t\n\t\t\t\t\t\n             
-    \t\tw \n\t\t\to\t\t\n\t\t\tn\t\t\n\t\t\t't\t\t\n\t\t\t\t\t\n\t\t\tg\n\t\t\te\t\t\t\t\n\t\t\tt\t\t\n\t\t\t\t\t\n\t\t\ta\n\t\t\tw\n\t\t\ta\n\t\t\ty</shake>"
-  - "\t\t\t<shake>f\n\t\t\tr\n\t\t\to\n\t\t\tm\n\t\t\t\n\t\t\t<rot>t\t\t\n\t\t\th\n\t\t\ti\n\t\t\ts</rot></shake>"
+    \t\ts\n\t\t\th\t\t\n\t\t\to\t\t\n\t\t\tu\t\t\n\t\t\tl\t\t\n\t\t\td\n\t\t\t\t\t\t\t\n\t\t\th\t\t\n\t\t\ta\t\t\n\t\t\tv\n\t\t\te\n\t\t\t\n\t\t\tn\n\t\t\te\n\t\t\tv\n\t\t\te\n\t\t\tr</shake>"
+  - "\t\t\t<shake>g\n\t\t\to\n\t\t\tn\n\t\t\te\n\t\t\t\n\t\t\tt\t\t\n\t\t\th\n\t\t\ti\n\t\t\ts\n\n\t\t\tf\n\t\t\ta\n\t\t\tr</shake>"
   idleTimeThreshold: 5
   clickCooldown: 3
-  nextSceneName: Demo Scene 2
+  nextSceneName: Demo Scene 4
 --- !u!1 &2098140804
 GameObject:
   m_ObjectHideFlags: 0
