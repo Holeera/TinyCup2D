@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 1089f0e12ee9722499affe4b5ea00a29
+guid: a890958913ed3384e83c3512ad34a77a
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -121,133 +121,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: mother
-      rect:
-        serializedVersion: 2
-        x: 343
-        y: 1288
-        width: 316
-        height: 560
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3abfceb959f56a24da76f31ec6896aa0
-      internalID: 606973239
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: random woman
-      rect:
-        serializedVersion: 2
-        x: 743
-        y: 1282
-        width: 226
-        height: 565
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9a99ce74803544c4784ed2f82c1bf29b
-      internalID: 1619718820
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: grandmother
-      rect:
-        serializedVersion: 2
-        x: 176
-        y: 673
-        width: 227
-        height: 561
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 773e3ea73a2b93c42aedfda63eca0da9
-      internalID: 607141953
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: twin broken (old)
-      rect:
-        serializedVersion: 2
-        x: 607
-        y: 685
-        width: 414
-        height: 559
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ed88699b33494cd499535b82e0bc3cbf
-      internalID: 1271040198
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fiance yurei
-      rect:
-        serializedVersion: 2
-        x: 175
-        y: 80
-        width: 331
-        height: 563
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 796097189dcd1234aa316a72169f6b77
-      internalID: -948999679
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: twin yurei (old)
-      rect:
-        serializedVersion: 2
-        x: 655
-        y: 107
-        width: 414
-        height: 559
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e1ea48ce6b6f4d246b0793bd096bddf7
-      internalID: -1631358562
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
@@ -258,13 +132,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      fiance yurei: -948999679
-      grandmother: 607141953
-      mother: 606973239
-      random woman: 1619718820
-      twin broken (old): 1271040198
-      twin yurei (old): -1631358562
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

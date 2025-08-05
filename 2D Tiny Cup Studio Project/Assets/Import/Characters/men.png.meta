@@ -123,7 +123,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: men_0
+      name: shopOwner
       rect:
         serializedVersion: 2
         x: 59
@@ -148,7 +148,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: men_1
+      name: priest
       rect:
         serializedVersion: 2
         x: 415
@@ -169,11 +169,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: men_2
+      name: grandfather
       rect:
         serializedVersion: 2
         x: 770
-        y: 1224
+        y: 1228
         width: 273
         height: 684
       alignment: 7
@@ -190,7 +190,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: men_3
+      name: father
       rect:
         serializedVersion: 2
         x: 99
@@ -211,7 +211,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: men_4
+      name: son
       rect:
         serializedVersion: 2
         x: 476
@@ -284,13 +284,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      men_0: 1558644135
-      men_1: 1519928119
-      men_2: 1459265858
-      men_3: -1047503613
-      men_4: 544649362
+      father: -1047503613
+      grandfather: 1459265858
       men_5: -427153441
       men_6: 973629209
+      priest: 1519928119
+      shopOwner: 1558644135
+      son: 544649362
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
