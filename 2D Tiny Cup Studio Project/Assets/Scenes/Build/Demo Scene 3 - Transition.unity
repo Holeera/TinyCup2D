@@ -468,10 +468,10 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "<shake>W              Y\t\ta\nt\t\t\to\t\tw\no\t\t\tu\t\ta\np\t\t\t\t\ty\n!</shake>             
-    w \n\t\t\to\t\tf\nT\t\t\tn\t\tr\nh\t\t\t't\t\to\ni\t\t\t\t\tm\ne\t\t\tg\nf\t\t\te\t\t<rot>t\t\t\n!\t\t\tt\t\th\n\t\t\t\t\ti\n\t\t\t\t\ts</rot>"
+    w \n\t\t\to\t\tf\nT\t\t\tn\t\tr\nh\t\t\t't\t\to\ni\t\t\t\t\tm\ne\t\t\tg\nf\t\t\te\t\tt\t\t\n!\t\t\tt\t\th\n\t\t\t\t\ti\n\t\t\t\t\ts"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 7900ff035807d444b8df39e13fb397cd, type: 2}
+  m_sharedMaterial: {fileID: -1108020286782459773, guid: 7900ff035807d444b8df39e13fb397cd, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
